@@ -1,18 +1,18 @@
-группа,колонка,блок,значение,в_единицах_полосы,вне_полосы,CI_исключает_0,органов_со_знаком,все_согласны
+group,column,block,score,reference_band_units,outside_band,CI_excludes_zero,organs_with_same_sign,all_sources_agree
 Apoptosis executioners,patient − healthy,representation,0.9,0.07,False,False,4/6,False
 Apoptosis executioners,organoid − 2D,representation,4.9,0.86,False,True,6/6,True
-Apoptosis initiators,patient − healthy,representation,3.3,0.41,False,False,4/6,False
-Apoptosis initiators,organoid − 2D,representation,2.0,0.65,False,True,6/6,True
+Apoptosis initiators,patient − healthy,representation,3.3,0.4,False,False,4/6,False
+Apoptosis initiators,organoid − 2D,representation,2.0,0.64,False,True,6/6,True
 BRAKES,patient − healthy,representation,-9.0,-1.28,True,True,6/6,True
 BRAKES,organoid − 2D,representation,1.6,0.67,False,True,6/6,True
-ENTRY adaptors,patient − healthy,representation,8.6,0.91,True,True,5/6,False
+ENTRY adaptors,patient − healthy,representation,8.6,0.9,True,True,5/6,False
 ENTRY adaptors,organoid − 2D,representation,0.5,0.14,False,False,4/6,False
 ENTRY receptors,patient − healthy,representation,-8.2,-0.78,False,True,5/6,False
 ENTRY receptors,organoid − 2D,representation,0.5,0.11,False,False,3/6,False
 Inhibitory signals,patient − healthy,representation,0.4,0.04,False,False,3/6,False
-Inhibitory signals,organoid − 2D,representation,1.9,0.61,False,True,5/6,False
+Inhibitory signals,organoid − 2D,representation,1.9,0.6,False,True,5/6,False
 MHC-I presentation,patient − healthy,representation,2.6,0.5,False,True,4/6,False
-MHC-I presentation,organoid − 2D,representation,1.7,1.26,True,False,5/6,False
+MHC-I presentation,organoid − 2D,representation,1.7,1.22,True,False,5/6,False
 NK activating ligands,patient − healthy,representation,5.2,0.73,False,True,5/6,False
 NK activating ligands,organoid − 2D,representation,-1.5,-0.64,False,False,6/6,True
 Necroptosis executioners,patient − healthy,representation,8.6,0.58,False,True,6/6,True
