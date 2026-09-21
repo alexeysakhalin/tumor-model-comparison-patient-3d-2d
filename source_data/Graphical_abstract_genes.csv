@@ -1,0 +1,68 @@
+block,group,gene,source_set,panel_chain,shared_node,organs_with_value,organs_healthy,organs_patient,organs_organoid,organs_2D,in_depmap,in_screen_corpus,scientific_label,figure_label
+Entry,ENTRY adaptors,BID,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Death-receptor mediators,Death-receptor mediators
+Entry,ENTRY adaptors,CASP10,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death-receptor mediators,Death-receptor mediators
+Entry,ENTRY adaptors,CASP8,PANoptosis panel 2026-09-18,death_receptor_extrinsic;panoptosome_and_brakes,True,6,6,6,6,6,True,True,Death-receptor mediators,Death-receptor mediators
+Entry,ENTRY adaptors,FADD,PANoptosis panel 2026-09-18,death_receptor_extrinsic;panoptosome_and_brakes,True,6,6,6,6,6,True,True,Death-receptor mediators,Death-receptor mediators
+Entry,ENTRY adaptors,TRADD,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death-receptor mediators,Death-receptor mediators
+Entry,ENTRY receptors,FAS,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death receptors,Death receptors
+Entry,ENTRY receptors,TNFRSF10A,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death receptors,Death receptors
+Entry,ENTRY receptors,TNFRSF10B,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death receptors,Death receptors
+Entry,ENTRY receptors,TNFRSF1A,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death receptors,Death receptors
+Brakes,BRAKES,BCL2,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Brakes,BRAKES,BCL2L1,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Brakes,BRAKES,BIRC2,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Brakes,BRAKES,BIRC3,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Brakes,BRAKES,CFLAR,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Brakes,BRAKES,MCL1,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Brakes,BRAKES,TNFAIP3,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Brakes,BRAKES,XIAP,PANoptosis panel 2026-09-18,death_receptor_extrinsic,False,6,6,6,6,6,True,True,Death-inhibitory module,Death-inhibitory module
+Execution,Apoptosis executioners,CASP3,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Executioner caspases,Executioner caspases
+Execution,Apoptosis executioners,CASP6,PANoptosis panel 2026-09-18,apoptosis_execution;panoptosome_and_brakes,True,6,6,6,6,6,True,True,Executioner caspases,Executioner caspases
+Execution,Apoptosis executioners,CASP7,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Executioner caspases,Executioner caspases
+Execution,Apoptosis initiators,APAF1,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Mitochondrial apoptosis,Mitochondrial apoptosis
+Execution,Apoptosis initiators,BAK1,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Mitochondrial apoptosis,Mitochondrial apoptosis
+Execution,Apoptosis initiators,BAX,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Mitochondrial apoptosis,Mitochondrial apoptosis
+Execution,Apoptosis initiators,CASP9,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Mitochondrial apoptosis,Mitochondrial apoptosis
+Execution,Apoptosis initiators,CYCS,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Mitochondrial apoptosis,Mitochondrial apoptosis
+Execution,Apoptosis initiators,DIABLO,PANoptosis panel 2026-09-18,apoptosis_execution,False,6,6,6,6,6,True,True,Mitochondrial apoptosis,Mitochondrial apoptosis
+Execution,Necroptosis executioners,MLKL,PANoptosis panel 2026-09-18,necroptosis_execution,False,6,6,6,6,6,True,True,MLKL / PGAM5,MLKL / PGAM5
+Execution,Necroptosis executioners,PGAM5,PANoptosis panel 2026-09-18,necroptosis_execution,False,6,6,6,6,6,True,True,MLKL / PGAM5,MLKL / PGAM5
+Execution,Necroptosis initiators,RIPK1,PANoptosis panel 2026-09-18,death_receptor_extrinsic;panoptosome_and_brakes,True,6,6,6,6,6,True,True,RIPK1 / RIPK3 / ZBP1,RIPK1 / RIPK3 / ZBP1
+Execution,Necroptosis initiators,RIPK3,PANoptosis panel 2026-09-18,necroptosis_execution;panoptosome_and_brakes,True,6,6,6,6,6,True,True,RIPK1 / RIPK3 / ZBP1,RIPK1 / RIPK3 / ZBP1
+Execution,Necroptosis initiators,ZBP1,PANoptosis panel 2026-09-18,panoptosome_and_brakes;sensing_priming,True,6,6,6,6,6,True,True,RIPK1 / RIPK3 / ZBP1,RIPK1 / RIPK3 / ZBP1
+Execution,Pyroptosis executioners,GSDMB,PANoptosis panel 2026-09-18,pyroptosis,False,6,6,6,6,6,True,True,Gasdermins,Gasdermins
+Execution,Pyroptosis executioners,GSDMD,PANoptosis panel 2026-09-18,pyroptosis,False,6,6,6,6,6,True,True,Gasdermins,Gasdermins
+Execution,Pyroptosis executioners,GSDME,PANoptosis panel 2026-09-18,pyroptosis,False,6,6,6,6,6,True,True,Gasdermins,Gasdermins
+Execution,Pyroptosis initiators,AIM2,PANoptosis panel 2026-09-18,sensing_priming,False,6,6,6,6,6,True,True,Inflammasome sensors and inflammatory caspases,Inflammasome sensors and caspases
+Execution,Pyroptosis initiators,CASP1,PANoptosis panel 2026-09-18,pyroptosis,False,6,6,6,6,6,True,True,Inflammasome sensors and inflammatory caspases,Inflammasome sensors and caspases
+Execution,Pyroptosis initiators,CASP4,PANoptosis panel 2026-09-18,pyroptosis,False,6,6,6,6,6,True,True,Inflammasome sensors and inflammatory caspases,Inflammasome sensors and caspases
+Execution,Pyroptosis initiators,CASP5,PANoptosis panel 2026-09-18,pyroptosis,False,6,6,6,6,6,True,True,Inflammasome sensors and inflammatory caspases,Inflammasome sensors and caspases
+Execution,Pyroptosis initiators,NLRC4,PANoptosis panel 2026-09-18,sensing_priming,False,6,6,6,6,6,True,True,Inflammasome sensors and inflammatory caspases,Inflammasome sensors and caspases
+Execution,Pyroptosis initiators,NLRP3,PANoptosis panel 2026-09-18,sensing_priming,False,6,6,6,6,6,True,True,Inflammasome sensors and inflammatory caspases,Inflammasome sensors and caspases
+Execution,Pyroptosis initiators,PYCARD,PANoptosis panel 2026-09-18,panoptosome_and_brakes;pyroptosis,True,6,6,6,6,6,True,True,Inflammasome sensors and inflammatory caspases,Inflammasome sensors and caspases
+Recognition,Inhibitory signals,CD274,immune-recognition set,,False,6,6,6,6,6,,,Immune-regulatory ligands,Immune-regulatory ligands
+Recognition,Inhibitory signals,CD47,immune-recognition set,,False,6,6,6,6,6,,,Immune-regulatory ligands,Immune-regulatory ligands
+Recognition,Inhibitory signals,CEACAM1,immune-recognition set,,False,6,6,6,6,6,,,Immune-regulatory ligands,Immune-regulatory ligands
+Recognition,Inhibitory signals,HLA-E,immune-recognition set,,False,6,6,6,6,6,,,Immune-regulatory ligands,Immune-regulatory ligands
+Recognition,Inhibitory signals,LGALS9,immune-recognition set,,False,6,6,6,6,6,,,Immune-regulatory ligands,Immune-regulatory ligands
+Recognition,Inhibitory signals,PDCD1LG2,immune-recognition set,,False,6,6,6,6,6,,,Immune-regulatory ligands,Immune-regulatory ligands
+Recognition,MHC-I presentation,B2M,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,CALR,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,ERAP1,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,HLA-A,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,HLA-B,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,HLA-C,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,NLRC5,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,PSMB8,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,PSMB9,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,TAP1,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,TAP2,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,MHC-I presentation,TAPBP,immune-recognition set,,False,6,6,6,6,6,,,MHC-I antigen processing and presentation,MHC-I processing and presentation
+Recognition,NK activating ligands,MICA,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands
+Recognition,NK activating ligands,MICB,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands
+Recognition,NK activating ligands,NECTIN2,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands
+Recognition,NK activating ligands,PVR,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands
+Recognition,NK activating ligands,RAET1E,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands
+Recognition,NK activating ligands,ULBP1,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands
+Recognition,NK activating ligands,ULBP2,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands
+Recognition,NK activating ligands,ULBP3,immune-recognition set,,False,6,6,6,6,6,,,NK receptor ligands,NK receptor ligands

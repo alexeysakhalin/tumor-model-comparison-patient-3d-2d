@@ -1,0 +1,10 @@
+роль,генов,доля_линий_с_экспрессией,худший_ген_2D,доля_органоидов,плеч_вне_полосы,пациент_вне_полосы,пац−здор_вне_полосы,ширина_CI_пациент
+ENTRY receptors,4,98.4,69.6,100.0,3.0,False,False,4.7
+ENTRY adaptors,5,100.0,31.9,100.0,0.0,False,True,2.4
+BRAKES,8,100.0,31.5,100.0,5.0,True,True,2.6
+Apoptosis initiators,6,100.0,97.1,100.0,3.0,False,False,1.5
+Apoptosis executioners,3,100.0,98.6,100.0,1.0,False,False,4.2
+Necroptosis initiators,3,44.9,0.0,89.5,1.0,False,False,4.4
+Necroptosis executioners,2,99.0,69.7,100.0,0.0,False,False,5.2
+Pyroptosis initiators,7,19.2,0.0,24.4,1.0,False,False,6.4
+Pyroptosis executioners,3,94.4,29.1,96.4,0.0,False,False,4.0

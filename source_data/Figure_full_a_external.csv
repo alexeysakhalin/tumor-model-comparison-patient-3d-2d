@@ -1,0 +1,13 @@
+группа,генов_в_группе,в_опубликованном_списке,гены,доля,примечание
+ENTRY receptors,4,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+ENTRY adaptors,5,2,"CASP8, FADD",0.4,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+BRAKES,8,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+Apoptosis initiators,6,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+Apoptosis executioners,3,1,CASP7,0.333,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+Necroptosis initiators,3,1,RIPK1,0.333,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+Necroptosis executioners,2,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+Pyroptosis initiators,7,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+Pyroptosis executioners,3,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+MHC-I presentation,12,6,"B2M, CALR, HLA-A, TAP1, TAP2, TAPBP",0.5,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+NK activating ligands,8,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
+Inhibitory signals,6,0,,0.0,"overlap with the published candidate list; no enrichment ratio or q value, because the eligible background of that screen cannot be reconstructed from the published material"
