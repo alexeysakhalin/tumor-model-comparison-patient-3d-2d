@@ -1,4 +1,4 @@
-группа,генов,здоровая,пациент,органоид,2D,пациент−здоровая,органоид−2D,маршрут
+group,gene_count,healthy,malignant,dome,2D,malignant_minus_healthy,dome_minus_2D,estimator
 Apoptosis executioners,3,0.1,2.7,5.7,-0.1,2.5,5.8,gene route (methods 3a)
 Apoptosis initiators,6,-5.4,-2.7,2.1,-0.0,1.1,2.1,gene route (methods 3a)
 BRAKES,8,19.1,11.8,1.6,0.0,-6.1,1.6,gene route (methods 3a)

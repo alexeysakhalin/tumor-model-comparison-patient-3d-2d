@@ -1,13 +1,13 @@
 composition,gene_count,layer,score_pp,reported_MC_band_lower_pp,reported_MC_band_upper_pp,outside_reported_MC_band,exact_200_gene_band_lower_pp,exact_200_gene_band_upper_pp,outside_exact_200_gene_band,reference_method
-MLKL + PGAM5,2,Healthy epithelium,-15.6626110077,-14.9,23.9,True,,,,Size-two band retained from Figure 6
-MLKL + PGAM5,2,Malignant epithelium,-10.6947131157,-9.9,15.4,True,,,,Size-two band retained from Figure 6
-MLKL + PGAM5,2,3D dome models,-5.32317709923,-7.6,8.8,False,,,,Size-two band retained from Figure 6
+MLKL + PGAM5,2,Healthy epithelium,-15.6626110077,-15,24,True,,,,Size-two band retained from Figure 6
+MLKL + PGAM5,2,Malignant epithelium,-10.6947131157,-10,15.5,True,,,,Size-two band retained from Figure 6
+MLKL + PGAM5,2,3D dome models,-5.32317709923,-7.7,8.8,False,,,,Size-two band retained from Figure 6
 MLKL + PGAM5,2,2D adherent models,0.0176301002502,-0.9,1.8,False,,,,Size-two band retained from Figure 6
-MLKL,1,Healthy epithelium,-10.7863883972,-25.6208956718,37.8744211197,False,-22.1421509266,37.8158165693,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
-MLKL,1,Malignant epithelium,-5.06058120728,-13.4818921089,21.5132958949,False,-13.5052641511,21.7421391189,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
-MLKL,1,3D dome models,-5.99848270416,-12.2218867004,11.6625022888,False,-12.615163976,12.7506937504,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
-MLKL,1,2D adherent models,0.002685546875,-0.241781234741,0.357967376709,False,-0.20642156601,0.351418566704,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
-PGAM5,1,Healthy epithelium,-24.7152423859,-25.6208956718,37.8744211197,False,-22.1421509266,37.8158165693,True,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
-PGAM5,1,Malignant epithelium,-15.6726827621,-13.4818921089,21.5132958949,True,-13.5052641511,21.7421391189,True,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
-PGAM5,1,3D dome models,-2.74487113953,-12.2218867004,11.6625022888,False,-12.615163976,12.7506937504,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
-PGAM5,1,2D adherent models,-0.169912338257,-0.241781234741,0.357967376709,False,-0.20642156601,0.351418566704,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+MLKL,1,Healthy epithelium,-10.7863883972,-25.7012539864,37.9600515366,False,-22.1781975746,37.8598648787,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+MLKL,1,Malignant epithelium,-5.06058120728,-13.5221896172,21.5132958949,False,-13.5480634093,21.7439692914,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+MLKL,1,3D dome models,-5.99848270416,-12.2314909279,11.6826515198,False,-12.6331294835,12.7929725647,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+MLKL,1,2D adherent models,0.002685546875,-0.238422393799,0.375429153442,False,-0.213538217545,0.361680650711,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+PGAM5,1,Healthy epithelium,-24.7152423859,-25.7012539864,37.9600515366,False,-22.1781975746,37.8598648787,True,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+PGAM5,1,Malignant epithelium,-15.6726827621,-13.5221896172,21.5132958949,True,-13.5480634093,21.7439692914,True,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+PGAM5,1,3D dome models,-2.74487113953,-12.2314909279,11.6826515198,False,-12.6331294835,12.7929725647,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"
+PGAM5,1,2D adherent models,-0.169912338257,-0.238422393799,0.375429153442,False,-0.213538217545,0.361680650711,False,"MC: 2000 draws, NumPy default_rng(3), sorted gene symbols; exact: each of 200 genes once"

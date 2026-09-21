@@ -1,10 +1,10 @@
-группа,генов,здоровая,опухоль,органоид,2D,здоровая−пациент,органоид−пациент,2D−пациент,ближе_к_пациенту,выигрыш_пунктов
-Apoptosis executioners,3,1.9,2.1,5.3,0.0,-0.2,3.2,-2.1,2D-линия,-1.1
-Apoptosis initiators,6,-5.1,-2.9,2.2,0.0,-2.2,5.0,2.9,2D-линия,-2.1
-BRAKES,8,18.6,9.1,1.4,-0.1,9.5,-7.7,-9.2,органоид,1.5
-ENTRY adaptors,5,-0.9,4.5,0.5,0.2,-5.4,-4.0,-4.3,органоид,0.3
-ENTRY receptors,4,5.4,-3.8,0.5,-0.2,9.2,4.3,3.6,2D-линия,-0.6
-Necroptosis executioners,2,-15.7,-10.7,-5.3,0.0,-5.0,5.4,10.7,органоид,5.3
-Necroptosis initiators,3,6.5,7.9,2.9,0.1,-1.4,-5.0,-7.8,органоид,2.8
-Pyroptosis executioners,3,-1.1,3.8,1.3,0.2,-4.9,-2.5,-3.6,органоид,1.1
-Pyroptosis initiators,7,2.2,5.6,1.0,0.0,-3.4,-4.7,-5.6,органоид,1.0
+group,gene_count,healthy,malignant_tumor,dome,2D,healthy_minus_malignant,dome_minus_malignant,2D_minus_malignant,closer_to_malignant,distance_reduction_pp
+Apoptosis executioners,3,1.9,2.1,5.3,0.0,-0.2,3.2,-2.1,2D cell line,-1.1
+Apoptosis initiators,6,-5.1,-2.9,2.2,0.0,-2.2,5.0,2.9,2D cell line,-2.1
+BRAKES,8,18.6,9.1,1.4,-0.1,9.5,-7.7,-9.2,dome,1.5
+ENTRY adaptors,5,-0.9,4.5,0.5,0.2,-5.4,-4.0,-4.3,dome,0.3
+ENTRY receptors,4,5.4,-3.8,0.5,-0.2,9.2,4.3,3.6,2D cell line,-0.6
+Necroptosis executioners,2,-15.7,-10.7,-5.3,0.0,-5.0,5.4,10.7,dome,5.3
+Necroptosis initiators,3,6.5,7.9,2.9,0.1,-1.4,-5.0,-7.8,dome,2.8
+Pyroptosis executioners,3,-1.1,3.8,1.3,0.2,-4.9,-2.5,-3.6,dome,1.1
+Pyroptosis initiators,7,2.2,5.6,1.0,0.0,-3.4,-4.7,-5.6,dome,1.0

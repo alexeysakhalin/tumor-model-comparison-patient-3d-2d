@@ -1,2 +1,2 @@
-слой,орган,кластеров,образцов
-пациент,желудок,1,2
+layer,organ,cluster_count,sample_count
+malignant,stomach,1,2
