@@ -1,0 +1,27 @@
+{
+  "scope": "Reconstruction from deposited profile scores and derived screen summaries, with exact comparison to the accepted Figure 6. Primary-processing utilities are included but have not been run on all original source matrices.",
+  "figure_png_sha256": "35369315324eda6b5c86f1ed2b5591ec86951f4bc152308263f99969a722ca36",
+  "figure_pdf_sha256": "99c78e45b16987f1013f8c95c7f9f373f8700c3d75263fedecd538407dd9c622",
+  "plotting_script_sha256": "a128f0ac456756fc11142bacb14b25a9a15a31305c725d278d5b59d85db1ff2c",
+  "six_plotted_source_tables_changed": false,
+  "original_expression_estimates_and_intervals": 72,
+  "original_expression_reference_bands": 48,
+  "functional_group_summaries": 12,
+  "candidate_list_overlap_groups": 12,
+  "pgam5_exclusion_analysis_included": true,
+  "pgam5_single_gene_estimates_reconstructed": 8,
+  "pgam5_pair_estimates_corrected_to_plotted_estimator": 4,
+  "pgam5_screen_values_reconciled_within_input_rounding": 24,
+  "pgam5_reference_gene_layer_scores_enumerated": 800,
+  "pgam5_healthy_reference_band_classification_sensitive_to_MC": true,
+  "individual_target_gene_cluster_intervals_recomputed": false,
+  "traditional_depmap_release_resolved": false,
+  "gene_count": 67,
+  "group_count": 12,
+  "analysis_scripts_included": true,
+  "project_repository": "https://github.com/alexeysakhalin/tumor-model-comparison-patient-3d-2d",
+  "figure_files": [
+    "figures/Figure6.pdf",
+    "figures/Figure6.png"
+  ]
+}

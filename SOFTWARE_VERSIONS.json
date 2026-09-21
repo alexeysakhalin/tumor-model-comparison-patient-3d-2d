@@ -1,0 +1,13 @@
+{
+  "verification_date": "2026-09-21",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "h5py": "3.14.0",
+    "Pillow": "12.3.0"
+  },
+  "scope": "Verified derived-table reconstruction, rendering and numerical fixtures; not the original primary-data processing environment."
+}

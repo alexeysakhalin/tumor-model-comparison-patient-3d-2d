@@ -1,0 +1,70 @@
+{
+  "title": "Cell-death regulation across patient tumors, 3D tumoroids and 2D cell lines: Figure 6 analysis",
+  "upload_type": "software",
+  "description": "Analysis and plotting software for Figure 6, with derived numerical inputs, source provenance and reproducibility checks. The default workflow recalculates expression summaries from profile-level scores and checks functional summaries. Full primary matrices and a complete raw-guide processing pipeline are not included. Data are CC BY 4.0; software is MIT. See README.md and SOURCE_DATASETS.tsv.",
+  "creators": [
+    {
+      "name": "Petukhov, Alexey",
+      "affiliation": "Nazarbayev University",
+      "orcid": "0000-0002-7298-5238"
+    }
+  ],
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "regulated cell death",
+    "tumor models",
+    "tumoroids",
+    "CRISPR screens",
+    "transcriptomics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.cell.2026.08.010",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41467-024-48310-4",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41586-019-1186-3",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41586-026-10843-7",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1016/j.xcrm.2025.102565",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41419-026-09248-1",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/s41419-021-04151-3",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1038/nature23477",
+      "relation": "references",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.5281/zenodo.10651059",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}
