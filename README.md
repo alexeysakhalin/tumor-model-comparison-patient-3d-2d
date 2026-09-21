@@ -31,7 +31,7 @@ python code/make_full_figure.py tables build/Figure6
 | --- | --- |
 | `code/` | Analysis, plotting and verification scripts |
 | `tables/` | Profile scores, expression summaries, screen summaries and provenance |
-| `source_data/` | Six numerical source tables used by the figure |
+| `source_data/` | Six plotted source tables and three auxiliary graphical-abstract tables |
 | `figures/` | Accepted Figure 6, PDF, PNG and legend |
 | `METHODS.md` | Estimators, resampling, functional comparisons and limitations |
 | `GROUP_ANNOTATIONS.tsv` | Group membership interpretation and biological references |
