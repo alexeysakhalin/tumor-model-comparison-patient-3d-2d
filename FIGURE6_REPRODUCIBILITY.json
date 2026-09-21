@@ -1,9 +1,9 @@
 {
   "scope": "Reconstruction from deposited profile scores and derived screen summaries, with exact comparison to the accepted Figure 6. Primary-processing utilities are included but have not been run on all original source matrices.",
-  "figure_png_sha256": "35369315324eda6b5c86f1ed2b5591ec86951f4bc152308263f99969a722ca36",
-  "figure_pdf_sha256": "99c78e45b16987f1013f8c95c7f9f373f8700c3d75263fedecd538407dd9c622",
-  "plotting_script_sha256": "a128f0ac456756fc11142bacb14b25a9a15a31305c725d278d5b59d85db1ff2c",
-  "six_plotted_source_tables_changed": false,
+  "figure_png_sha256": "058e38765105b5feff048498f21d9f554db73052997be713fee545a8b0e5716f",
+  "figure_pdf_sha256": "f12e2a73661a96fc6758b706906140e919d790f6abea17a01545189452f45627",
+  "plotting_script_sha256": "b65dda0ed689ef94a9da1ab40688ff59b5f695f97d9b9b1abab45e745284f2fa",
+  "six_plotted_source_tables_changed": true,
   "original_expression_estimates_and_intervals": 72,
   "original_expression_reference_bands": 48,
   "functional_group_summaries": 12,
@@ -23,5 +23,16 @@
   "figure_files": [
     "figures/Figure6.pdf",
     "figures/Figure6.png"
-  ]
+  ],
+  "background_self_exclusion_correction": {
+    "release": "1.1.0",
+    "date": "2026-09-21",
+    "released_baseline_reproduced": true,
+    "normalized_contrasts_changed": 5,
+    "max_band_unit_change": 0.04,
+    "classification_changes": 0,
+    "report": "audit/self_exclusion_2026-09-21/Background_Self_Matching_Correction_Report_EN.md"
+  },
+  "rendering_environment": "matplotlib 3.10.8, numpy 2.3.5, pandas 2.2.3, scipy 1.17.0, h5py 3.14.0, Pillow 12.3.0 (requirements.txt); FreeType 2.6.1",
+  "rendering_note": "The PDF, composite PNG and standalone panels were exported from the deposited plotting functions in the recorded environment. PDF creation timestamps are omitted for deterministic export."
 }

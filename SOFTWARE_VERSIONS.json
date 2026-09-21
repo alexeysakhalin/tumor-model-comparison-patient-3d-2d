@@ -9,5 +9,10 @@
     "h5py": "3.14.0",
     "Pillow": "12.3.0"
   },
-  "scope": "Verified derived-table reconstruction, rendering and numerical fixtures; not the original primary-data processing environment."
+  "scope": "Verified derived-table reconstruction, rendering and numerical fixtures; not the original primary-data processing environment.",
+  "freetype": "2.6.1",
+  "font": {
+    "family": "DejaVu Sans",
+    "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+  }
 }
