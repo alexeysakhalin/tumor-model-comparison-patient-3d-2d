@@ -6,7 +6,7 @@ import numpy as np
 
 from build_layer_scores import healthy_layer, site_mask
 from build_summary_tables import ORGANS, point_and_ci
-from level_matched_scores import control_sets, percentile_ranks
+from level_matched_scores import control_sets, controls_are_nearest, percentile_ranks
 
 
 class NumericalTests(unittest.TestCase):
@@ -30,6 +30,37 @@ class NumericalTests(unittest.TestCase):
         self.assertEqual(actual["target"].tolist(), [2, 1, 3])
         with self.assertRaises(ValueError):
             control_sets(ranks, ["target"], index, {"target", "excluded"}, 5)
+
+    def test_scored_gene_is_never_its_own_control(self):
+        # The gene is absent from the exclusion set, as the 200 background genes were: without
+        # self-exclusion it sits at distance zero from itself and takes the first control slot.
+        ranks = np.array([50, 49, 51, 40, 60, 50])
+        index = dict(zip(["target", "B", "A", "C", "D", "other"], range(6)))
+        selected = control_sets(ranks, ["target"], index, set(), 3)["target"].tolist()
+        self.assertNotIn(index["target"], selected)
+        self.assertEqual(len(selected), 3)
+        self.assertEqual(len(set(selected)), 3)
+        # "other" shares the target's rank exactly, so it is the nearest eligible control.
+        self.assertEqual(selected[0], index["other"])
+        self.assertTrue(controls_are_nearest(ranks, index, set(), "target", n_ctrl=3))
+
+    def test_self_exclusion_inside_a_tie_block(self):
+        # Every candidate has the target's rank: the set must still be full, distinct and self-free.
+        ranks = np.zeros(6)
+        index = {name: i for i, name in enumerate(["G0", "G1", "G2", "G3", "G4", "G5"])}
+        for target in index:
+            selected = control_sets(ranks, [target], index, set(), 4)[target].tolist()
+            self.assertNotIn(index[target], selected)
+            self.assertEqual(sorted(selected), sorted(selected))
+            self.assertEqual(len(set(selected)), 4)
+
+    def test_pool_too_small_after_self_exclusion(self):
+        # Five eligible genes, one of them the target: four controls remain, five cannot be served.
+        ranks = np.arange(5.0)
+        index = {f"G{i}": i for i in range(5)}
+        self.assertEqual(len(control_sets(ranks, ["G2"], index, set(), 4)["G2"]), 4)
+        with self.assertRaises(ValueError):
+            control_sets(ranks, ["G2"], index, set(), 5)
 
     def test_anatomical_selection(self):
         result = site_mask(

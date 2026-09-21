@@ -181,8 +181,13 @@ def single_cluster_strata(ps):
 DIFF_KEYS = [("malignant", "healthy"), ("dome", "2D")]
 
 
-def null_bands(rs, sizes, n_rep=2000, seed=3):
-    """95% band of the same statistic for k random genes, by the sample route."""
+def null_bands(rs, sizes, n_rep=2000, seed=3, decimals=1):
+    """95% band of the same statistic for k random genes, by the sample route.
+
+    Limits are rounded to `decimals` places, which is how the release stores them; pass
+    `decimals=None` to obtain them at full precision for a sensitivity comparison. The rounded form
+    remains the one the released tables and the normalisation use.
+    """
     rng = np.random.default_rng(seed)
     genes = rs["gene"].unique()
     if rs.duplicated(["layer", "organ", "gene", "sample_id"]).any():
@@ -228,8 +233,10 @@ def null_bands(rs, sizes, n_rep=2000, seed=3):
                 {
                     "group_size": int(k),
                     "layer": key,
-                    "band_lower": round(float(np.percentile(v, 2.5)), 1),
-                    "band_upper": round(float(np.percentile(v, 97.5)), 1),
+                    "band_lower": float(np.percentile(v, 2.5)) if decimals is None
+                    else round(float(np.percentile(v, 2.5)), decimals),
+                    "band_upper": float(np.percentile(v, 97.5)) if decimals is None
+                    else round(float(np.percentile(v, 97.5)), decimals),
                 }
             )
     return pd.DataFrame(out)

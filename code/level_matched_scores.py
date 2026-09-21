@@ -54,6 +54,14 @@ def control_sets(
     window centred on the insertion position takes whatever lies to the left and right of it, which
     at the edges of the axis and inside large tie blocks is not the nearest set. Ties in distance
     are broken by gene symbol, so the chosen controls do not depend on the order of the gene axis.
+
+    Every scored gene is excluded from its own control set by identity, whether or not it appears in
+    `exclude`. Without that a gene absent from the exclusion set sits at distance zero from itself
+    and is taken as its own control, which is how the 200 background genes were scored before
+    21 September 2026: the analysed genes were protected because `group_table` adds them to
+    `exclude`, the background genes were not, and their scores define the reference bands. The gene
+    is dropped from the ordered candidates before the first `n_ctrl` are taken, so the set still
+    holds `n_ctrl` distinct controls.
     """
     pool = np.array(sorted((i for g, i in gene_index.items() if g not in exclude)))
     if len(pool) < n_ctrl or n_ctrl < 1 or not np.isfinite(ref_rank).all():
@@ -73,17 +81,27 @@ def control_sets(
             continue
         d = np.abs(ref_pool - ref_rank[j])
         order = np.lexsort((pool_names, d))  # distance first, symbol as the tie-break
-        sets[g] = pool[order[:n_ctrl]]
+        ranked = pool[order]
+        ranked = ranked[ranked != j]  # a gene is never a control for itself
+        if len(ranked) < n_ctrl:
+            raise ValueError(
+                f"Only {len(ranked)} eligible controls for {g}, {n_ctrl} required"
+            )
+        sets[g] = ranked[:n_ctrl]
     return sets
 
 
 def controls_are_nearest(ref_rank, gene_index, exclude, gene, n_ctrl=50) -> bool:
     """The selected controls are the n_ctrl smallest distances available in the pool."""
     sets = control_sets(ref_rank, [gene], gene_index, exclude, n_ctrl)
-    pool = np.array(sorted((i for g, i in gene_index.items() if g not in exclude)))
-    d_all = np.sort(np.abs(ref_rank[pool] - ref_rank[gene_index[gene]]))[:n_ctrl]
-    d_sel = np.sort(np.abs(ref_rank[sets[gene]] - ref_rank[gene_index[gene]]))
-    return bool(np.allclose(d_all, d_sel))
+    j = gene_index[gene]
+    # The eligible pool excludes the gene itself, so the reference distances are taken without it:
+    # comparing against a pool that still contains the gene would demand the distance-zero entry
+    # that control_sets is required to drop.
+    pool = np.array(sorted((i for g, i in gene_index.items() if g not in exclude and i != j)))
+    d_all = np.sort(np.abs(ref_rank[pool] - ref_rank[j]))[:n_ctrl]
+    d_sel = np.sort(np.abs(ref_rank[sets[gene]] - ref_rank[j]))
+    return bool(np.allclose(d_all, d_sel) and j not in set(sets[gene].tolist()))
 
 
 def control_match_report(
