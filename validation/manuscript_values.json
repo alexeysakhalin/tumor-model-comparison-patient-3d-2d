@@ -1,1 +1,115 @@
-
+{
+  "source": "Figure 6 Results in the manuscript revision supplied for this analysis",
+  "expression": [
+    {
+      "group": "BRAKES",
+      "column": "healthy",
+      "value": 18.6
+    },
+    {
+      "group": "BRAKES",
+      "column": "malignant",
+      "value": 9.1
+    },
+    {
+      "group": "BRAKES",
+      "column": "dome",
+      "value": 1.4
+    },
+    {
+      "group": "BRAKES",
+      "column": "2D",
+      "value": -0.1
+    },
+    {
+      "group": "BRAKES",
+      "column": "malignant_minus_healthy",
+      "value": -9.0
+    },
+    {
+      "group": "BRAKES",
+      "column": "malignant_minus_healthy_lo",
+      "value": -11.3
+    },
+    {
+      "group": "BRAKES",
+      "column": "malignant_minus_healthy_hi",
+      "value": -5.5
+    },
+    {
+      "group": "BRAKES",
+      "column": "malignant_minus_healthy_band_lo",
+      "value": -8.3
+    },
+    {
+      "group": "BRAKES",
+      "column": "malignant_minus_healthy_band_hi",
+      "value": 5.8
+    },
+    {
+      "group": "ENTRY adaptors",
+      "column": "malignant_minus_healthy",
+      "value": 8.6
+    },
+    {
+      "group": "ENTRY adaptors",
+      "column": "malignant_minus_healthy_lo",
+      "value": 4.3
+    },
+    {
+      "group": "ENTRY adaptors",
+      "column": "malignant_minus_healthy_hi",
+      "value": 12.5
+    },
+    {
+      "group": "ENTRY adaptors",
+      "column": "malignant_minus_healthy_band_lo",
+      "value": -11.0
+    },
+    {
+      "group": "ENTRY adaptors",
+      "column": "malignant_minus_healthy_band_hi",
+      "value": 8.0
+    },
+    {
+      "group": "MHC-I presentation",
+      "column": "dome_minus_2D",
+      "value": 1.7
+    },
+    {
+      "group": "MHC-I presentation",
+      "column": "dome_minus_2D_lo",
+      "value": -0.5
+    },
+    {
+      "group": "MHC-I presentation",
+      "column": "dome_minus_2D_hi",
+      "value": 4.2
+    },
+    {
+      "group": "MHC-I presentation",
+      "column": "dome_minus_2D_band_lo",
+      "value": -1.1
+    },
+    {
+      "group": "MHC-I presentation",
+      "column": "dome_minus_2D_band_hi",
+      "value": 1.6
+    },
+    {
+      "group": "Apoptosis executioners",
+      "column": "dome_minus_2D",
+      "value": 4.9
+    },
+    {
+      "group": "Apoptosis executioners",
+      "column": "dome_minus_2D_band_lo",
+      "value": -5.4
+    },
+    {
+      "group": "Apoptosis executioners",
+      "column": "dome_minus_2D_band_hi",
+      "value": 5.9
+    }
+  ]
+}
