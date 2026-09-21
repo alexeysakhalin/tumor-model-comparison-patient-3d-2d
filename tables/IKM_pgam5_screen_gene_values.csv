@@ -1,0 +1,9 @@
+model,analysis_group_id,gene,baseline,IFNg,IL6
+JAK1_KO_C1,Necroptosis executioners,MLKL,-0.072,-0.154,-0.322
+JAK1_KO_C1,Necroptosis executioners,PGAM5,-0.235,0.121,0.054
+JAK1_KO_C3,Necroptosis executioners,MLKL,-0.004,0.025,-0.267
+JAK1_KO_C3,Necroptosis executioners,PGAM5,-0.495,0.102,0.338
+WT D14,Necroptosis executioners,MLKL,-0.229,0.143,-0.011
+WT D14,Necroptosis executioners,PGAM5,-0.434,0.044,0.188
+WT Scr,Necroptosis executioners,MLKL,0.267,-0.918,-0.234
+WT Scr,Necroptosis executioners,PGAM5,-0.318,-0.011,-0.174

@@ -1,0 +1,49 @@
+группа,слой,общий_универсум_18612,собственный_транскриптом_слоя,разница
+Apoptosis executioners,здоровая,1.9,0.6,-1.3
+Apoptosis executioners,пациент,2.1,1.1,-1.0
+Apoptosis executioners,органоид,5.3,5.3,0.0
+Apoptosis executioners,2D,0.0,0.1,0.1
+Apoptosis initiators,здоровая,-5.1,-1.8,3.3
+Apoptosis initiators,пациент,-2.9,-1.5,1.4
+Apoptosis initiators,органоид,2.2,2.1,-0.1
+Apoptosis initiators,2D,0.0,0.0,0.0
+BRAKES,здоровая,18.6,6.6,-12.0
+BRAKES,пациент,9.1,5.0,-4.1
+BRAKES,органоид,1.4,1.3,-0.1
+BRAKES,2D,-0.1,-0.1,0.0
+ENTRY adaptors,здоровая,-0.9,-0.2,0.7
+ENTRY adaptors,пациент,4.5,2.4,-2.1
+ENTRY adaptors,органоид,0.5,0.4,-0.1
+ENTRY adaptors,2D,0.2,0.3,0.1
+ENTRY receptors,здоровая,5.4,1.9,-3.5
+ENTRY receptors,пациент,-3.8,-2.0,1.8
+ENTRY receptors,органоид,0.5,0.4,-0.1
+ENTRY receptors,2D,-0.2,-0.1,0.1
+Inhibitory signals,здоровая,8.0,3.5,-4.5
+Inhibitory signals,пациент,6.9,3.6,-3.3
+Inhibitory signals,органоид,1.9,1.9,0.0
+Inhibitory signals,2D,0.2,0.2,0.0
+MHC-I presentation,здоровая,5.9,2.0,-3.9
+MHC-I presentation,пациент,7.6,4.0,-3.6
+MHC-I presentation,органоид,2.0,2.0,0.0
+MHC-I presentation,2D,0.3,0.3,0.0
+NK activating ligands,здоровая,-16.9,-8.8,8.1
+NK activating ligands,пациент,-10.8,-6.6,4.2
+NK activating ligands,органоид,-1.6,-1.7,-0.1
+NK activating ligands,2D,0.0,0.0,0.0
+Necroptosis executioners,здоровая,-15.7,-6.2,9.5
+Necroptosis executioners,пациент,-10.7,-5.7,5.0
+Necroptosis executioners,органоид,-5.3,-5.3,0.0
+Necroptosis executioners,2D,0.0,-0.0,-0.0
+Necroptosis initiators,здоровая,6.5,5.4,-1.1
+Necroptosis initiators,пациент,7.9,5.8,-2.1
+Necroptosis initiators,органоид,2.9,2.9,0.0
+Necroptosis initiators,2D,0.1,0.1,0.0
+Pyroptosis executioners,здоровая,-1.1,-0.5,0.6
+Pyroptosis executioners,пациент,3.8,1.9,-1.9
+Pyroptosis executioners,органоид,1.3,1.3,0.0
+Pyroptosis executioners,2D,0.2,0.3,0.1
+Pyroptosis initiators,здоровая,2.2,1.9,-0.3
+Pyroptosis initiators,пациент,5.6,3.6,-2.0
+Pyroptosis initiators,органоид,1.0,1.1,0.1
+Pyroptosis initiators,2D,0.0,0.0,0.0

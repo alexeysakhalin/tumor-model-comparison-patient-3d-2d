@@ -1,0 +1,68 @@
+группа	ген	в_универсуме	блок
+ENTRY receptors	FAS	True	Entry and brakes
+ENTRY receptors	TNFRSF1A	True	Entry and brakes
+ENTRY receptors	TNFRSF10A	True	Entry and brakes
+ENTRY receptors	TNFRSF10B	True	Entry and brakes
+ENTRY adaptors	FADD	True	Entry and brakes
+ENTRY adaptors	TRADD	True	Entry and brakes
+ENTRY adaptors	CASP8	True	Entry and brakes
+ENTRY adaptors	CASP10	True	Entry and brakes
+ENTRY adaptors	BID	True	Entry and brakes
+BRAKES	XIAP	True	Entry and brakes
+BRAKES	BIRC2	True	Entry and brakes
+BRAKES	BIRC3	True	Entry and brakes
+BRAKES	CFLAR	True	Entry and brakes
+BRAKES	BCL2	True	Entry and brakes
+BRAKES	BCL2L1	True	Entry and brakes
+BRAKES	MCL1	True	Entry and brakes
+BRAKES	TNFAIP3	True	Entry and brakes
+Apoptosis initiators	CASP9	True	Execution
+Apoptosis initiators	APAF1	True	Execution
+Apoptosis initiators	CYCS	True	Execution
+Apoptosis initiators	BAX	True	Execution
+Apoptosis initiators	BAK1	True	Execution
+Apoptosis initiators	DIABLO	True	Execution
+Apoptosis executioners	CASP3	True	Execution
+Apoptosis executioners	CASP7	True	Execution
+Apoptosis executioners	CASP6	True	Execution
+Necroptosis initiators	RIPK1	True	Execution
+Necroptosis initiators	RIPK3	True	Execution
+Necroptosis initiators	ZBP1	True	Execution
+Necroptosis executioners	MLKL	True	Execution
+Necroptosis executioners	PGAM5	True	Execution
+Pyroptosis initiators	NLRP3	True	Execution
+Pyroptosis initiators	NLRC4	True	Execution
+Pyroptosis initiators	AIM2	True	Execution
+Pyroptosis initiators	PYCARD	True	Execution
+Pyroptosis initiators	CASP1	True	Execution
+Pyroptosis initiators	CASP4	True	Execution
+Pyroptosis initiators	CASP5	True	Execution
+Pyroptosis executioners	GSDMD	True	Execution
+Pyroptosis executioners	GSDME	True	Execution
+Pyroptosis executioners	GSDMB	True	Execution
+MHC-I presentation	HLA-A	True	Recognition
+MHC-I presentation	HLA-B	True	Recognition
+MHC-I presentation	HLA-C	True	Recognition
+MHC-I presentation	B2M	True	Recognition
+MHC-I presentation	TAP1	True	Recognition
+MHC-I presentation	TAP2	True	Recognition
+MHC-I presentation	TAPBP	True	Recognition
+MHC-I presentation	PSMB8	True	Recognition
+MHC-I presentation	PSMB9	True	Recognition
+MHC-I presentation	NLRC5	True	Recognition
+MHC-I presentation	CALR	True	Recognition
+MHC-I presentation	ERAP1	True	Recognition
+NK activating ligands	MICA	True	Recognition
+NK activating ligands	MICB	True	Recognition
+NK activating ligands	ULBP1	True	Recognition
+NK activating ligands	ULBP2	True	Recognition
+NK activating ligands	ULBP3	True	Recognition
+NK activating ligands	RAET1E	True	Recognition
+NK activating ligands	PVR	True	Recognition
+NK activating ligands	NECTIN2	True	Recognition
+Inhibitory signals	HLA-E	True	Recognition
+Inhibitory signals	CD274	True	Recognition
+Inhibitory signals	PDCD1LG2	True	Recognition
+Inhibitory signals	CD47	True	Recognition
+Inhibitory signals	LGALS9	True	Recognition
+Inhibitory signals	CEACAM1	True	Recognition

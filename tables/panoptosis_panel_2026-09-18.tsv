@@ -1,0 +1,118 @@
+gene	chain	go_support	source	shared_node	in_depmap	in_tcga_matrix	in_screen_corpus
+ZBP1	sensing_priming	GO:0070266	GO+curated	True	True	True	True
+AIM2	sensing_priming	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+NLRP3	sensing_priming	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+NLRP1	sensing_priming	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+NLRC4	sensing_priming	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+NLRP6	sensing_priming	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+NLRP12	sensing_priming		curated_only	True	True	True	True
+MEFV	sensing_priming	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+IFI16	sensing_priming		curated_only	False	True	True	True
+TLR3	sensing_priming	GO:0070266	GO+curated	False	True	True	True
+TLR4	sensing_priming		curated_only	False	True	True	True
+TICAM1	sensing_priming		curated_only	False	True	True	True
+MAP3K7	sensing_priming		curated_only	False	True	True	True
+IRF1	sensing_priming	GO:0060333	GO+curated	True	True	True	True
+STING1	sensing_priming		curated_only	False	True	True	True
+TBK1	sensing_priming	GO:0060337	GO+curated	False	True	True	True
+RIGI	sensing_priming		curated_only	False	True	False	True
+IFIH1	sensing_priming		curated_only	False	True	True	True
+MAVS	sensing_priming	GO:0060337	GO+curated	False	True	True	True
+CARD8	sensing_priming	GO:0061702	GO+curated	False	True	True	True
+NAIP	sensing_priming	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+DHX9	sensing_priming	GO:0070269	GO+curated	False	True	True	True
+DPP9	sensing_priming	GO:0070269	GO+curated	False	True	True	True
+APIP	sensing_priming	GO:0070269	GO+curated	False	True	True	True
+TNFRSF1A	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+TNFRSF10A	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+TNFRSF10B	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+FAS	death_receptor_extrinsic	GO:0070266;GO:0008625	GO+curated	False	True	True	True
+FASLG	death_receptor_extrinsic	GO:0070266;GO:0008625	GO+curated	False	True	True	True
+TNF	death_receptor_extrinsic	GO:0070266;GO:0008625	GO+curated	False	True	True	True
+TNFSF10	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+TRADD	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+FADD	death_receptor_extrinsic	GO:0070266;GO:0008625	GO+curated	True	True	True	True
+CASP8	death_receptor_extrinsic	GO:0070269;GO:0008625;GO:0097194	GO+curated	True	True	True	True
+CASP10	death_receptor_extrinsic		curated_only	False	True	True	True
+CFLAR	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+RIPK1	death_receptor_extrinsic	GO:0070266;GO:0008625	GO+curated	True	True	True	True
+TRAF2	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+TRAF5	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+BIRC2	death_receptor_extrinsic	GO:0070266;GO:0008625	GO+curated	False	True	True	True
+BIRC3	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+XIAP	death_receptor_extrinsic		curated_only	False	True	True	True
+CYLD	death_receptor_extrinsic	GO:0070266	GO+curated	False	True	True	True
+SPATA2	death_receptor_extrinsic		curated_only	False	True	True	True
+OTULIN	death_receptor_extrinsic		curated_only	False	True	True	True
+TNFAIP3	death_receptor_extrinsic		curated_only	False	True	True	True
+CRADD	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+DEDD	death_receptor_extrinsic	GO:0008625	GO+curated	False	True	True	True
+RIPK3	necroptosis_execution	GO:0070266	GO+curated	True	True	True	True
+MLKL	necroptosis_execution	GO:0070266	GO+curated	False	True	True	True
+PGAM5	necroptosis_execution	GO:0070266	GO+curated	False	True	True	True
+TRPM7	necroptosis_execution	GO:0070266	GO+curated	False	True	True	True
+PYCARD	pyroptosis	GO:0070269;GO:0061702	GO+curated	True	True	True	True
+CASP1	pyroptosis	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+CASP4	pyroptosis	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+CASP5	pyroptosis	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+CASP12	pyroptosis	GO:0070269;GO:0061702	GO+curated	False	True	False	True
+GSDMA	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+GSDMB	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+GSDMC	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+GSDMD	pyroptosis	GO:0070269;GO:0061702	GO+curated	False	True	True	True
+GSDME	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+NINJ1	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+IL1B	pyroptosis		curated_only	False	True	True	True
+IL18	pyroptosis		curated_only	False	True	True	True
+ELANE	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+GZMA	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+GZMB	pyroptosis	GO:0070269	GO+curated	False	True	True	True
+CASP3	apoptosis_execution	GO:0070269;GO:0097194	GO+curated	False	True	True	True
+CASP6	apoptosis_execution	GO:0070269	GO+curated	True	True	True	True
+CASP7	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+CASP9	apoptosis_execution		curated_only	False	True	True	True
+CASP2	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+APAF1	apoptosis_execution		curated_only	False	True	True	True
+CYCS	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+BID	apoptosis_execution	GO:0008625	GO+curated	False	True	True	True
+BAX	apoptosis_execution	GO:0008625;GO:0097194	GO+curated	False	True	True	True
+BAK1	apoptosis_execution		curated_only	False	True	True	True
+BOK	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+BCL2	apoptosis_execution	GO:0008625	GO+curated	False	True	True	True
+MCL1	apoptosis_execution		curated_only	False	True	True	True
+BCL2L1	apoptosis_execution		curated_only	False	True	True	True
+BBC3	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+DIABLO	apoptosis_execution	GO:0008625	GO+curated	False	True	True	True
+HTRA2	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+DFFA	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+DFFB	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+ENDOG	apoptosis_execution	GO:0097194	GO+curated	False	True	True	True
+ZBP1	panoptosome_and_brakes	GO:0070266	GO+curated	True	True	True	True
+RIPK1	panoptosome_and_brakes	GO:0070266;GO:0008625	GO+curated	True	True	True	True
+RIPK3	panoptosome_and_brakes	GO:0070266	GO+curated	True	True	True	True
+CASP8	panoptosome_and_brakes	GO:0070269;GO:0008625;GO:0097194	GO+curated	True	True	True	True
+FADD	panoptosome_and_brakes	GO:0070266;GO:0008625	GO+curated	True	True	True	True
+NLRP12	panoptosome_and_brakes		curated_only	True	True	True	True
+ADAR	panoptosome_and_brakes		curated_only	False	True	True	True
+CASP6	panoptosome_and_brakes	GO:0070269	GO+curated	True	True	True	True
+PYCARD	panoptosome_and_brakes	GO:0070269;GO:0061702	GO+curated	True	True	True	True
+IFNG	interferon_axis	GO:0060333	GO+curated	False	True	True	True
+IFNGR1	interferon_axis	GO:0060333	GO+curated	False	True	True	True
+IFNGR2	interferon_axis	GO:0060333	GO+curated	False	True	True	True
+JAK1	interferon_axis	GO:0060333;GO:0060337	GO+curated	False	True	True	True
+JAK2	interferon_axis	GO:0060333	GO+curated	False	True	True	True
+TYK2	interferon_axis	GO:0060333;GO:0060337	GO+curated	False	True	True	True
+STAT1	interferon_axis	GO:0060333;GO:0060337	GO+curated	False	True	True	True
+STAT2	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+IRF1	interferon_axis	GO:0060333	GO+curated	True	True	True	True
+IRF3	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+IRF7	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+IRF9	interferon_axis		curated_only	False	True	True	True
+IFNAR1	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+IFNAR2	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+IKBKE	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+MYD88	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+CIITA	interferon_axis	GO:0060333	GO+curated	False	True	True	True
+SP100	interferon_axis	GO:0060333;GO:0060337	GO+curated	False	True	True	True
+OAS1	interferon_axis	GO:0060337	GO+curated	False	True	True	True
+OASL	interferon_axis	GO:0060337	GO+curated	False	True	True	True

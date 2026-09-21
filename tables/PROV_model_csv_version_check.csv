@@ -1,0 +1,5 @@
+file,reported_archive_timestamp,bytes,rows,models,sha256_prefix,reported_identical_to_used_file,reported_status,reported_expression_models_covered,reported_2D_models_selected,sha256,verification_scope
+Model (3).csv,2026-01-09 10:19,699474,2132,2132,9dbb9de8805696c1,True,Used version,1684,401,9dbb9de8805696c1345816ab07edd23fb4fd95e117739f3c5c3b1cf062c1233b,Reported comparison of source downloads; archived source copies are not included
+Model (2).csv,2025-10-05 09:22,699474,2132,2132,9dbb9de8805696c1,True,Used version,1684,401,9dbb9de8805696c1345816ab07edd23fb4fd95e117739f3c5c3b1cf062c1233b,Reported comparison of source downloads; archived source copies are not included
+Model (1).csv,2025-09-28 01:59,694278,2116,2116,b096e03bfefdc267,False,Earlier version; not used,1684,401,,Reported comparison of source downloads; archived source copies are not included
+Model.csv,2025-09-22 17:37,694278,2116,2116,b096e03bfefdc267,False,Earlier version; not used,1684,401,,Reported comparison of source downloads; archived source copies are not included

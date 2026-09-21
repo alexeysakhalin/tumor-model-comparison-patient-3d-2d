@@ -1,0 +1,15 @@
+файл,raw_X,var,raw_var,оси_совпадают
+healthy__Tabula_Sapiens_-_Large_Intest,True,60606,60606,True
+healthy__Tabula_Sapiens_-_Lung.h5ad,True,60606,60606,True
+healthy__Tabula_Sapiens_-_Mammary.h5ad,True,60606,60606,True
+healthy__Tabula_Sapiens_-_Prostate.h5a,True,60606,60606,True
+healthy__Tabula_Sapiens_-_Skin.h5ad,True,60606,60606,True
+healthy_ts__TabulaSapiens_Ovary.h5ad,True,60606,60606,True
+healthy_ts__TabulaSapiens_Pancreas.h5a,True,60606,60606,True
+healthy_ts__TabulaSapiens_Stomach.h5ad,True,60606,60606,True
+tumour__A_multi-tissue_single-cell_tum,True,44649,44649,True
+tumour__Core_GBmap.h5ad,True,27632,27632,True
+tumour__Global_Atlas.h5ad,True,37389,37389,True
+tumour__Integrated_cancer_cell-specifi,True,22779,22779,True
+tumour__The_single-cell_Colorectal_Can,True,28127,28127,True
+tumour__The_single-cell_lung_cancer_at,True,17764,17764,True

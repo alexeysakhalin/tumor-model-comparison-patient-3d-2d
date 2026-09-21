@@ -1,0 +1,554 @@
+слой,орган,organ_en,ModelID,OncotreeCode,OncotreePrimaryDisease,GrowthPattern
+2D,лёгкое,Lung,ACH-001113,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-001098,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000708,READ,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000327,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000769,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000528,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-000828,ILC,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000421,READ,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-001375,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000800,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,желудок,Stomach,ACH-000678,TSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000123,SCCO,Ovarian Epithelial Tumor,Adherent
+2D,панкреас,Pancreas,ACH-001377,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000138,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000117,BRCA,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000999,COAD,Colorectal Adenocarcinoma,Adherent
+2D,желудок,Stomach,ACH-000633,DSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000585,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000520,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000176,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000587,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000785,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000627,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000704,SOC,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000276,IDC,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000554,ILC,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000818,IDC,Invasive Breast Carcinoma,Adherent
+2D,желудок,Stomach,ACH-000880,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000392,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000035,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-000856,BRCA,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000552,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000222,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000798,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000894,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000608,MOV,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-000501,COAD,Colorectal Adenocarcinoma,Adherent
+2D,желудок,Stomach,ACH-000344,DSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000223,IDC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000031,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000638,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000596,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000332,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000998,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-001456,COADREAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000971,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-001454,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000926,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000578,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000033,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-000019,BRCA,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000330,IDC,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000481,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-001382,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-001403,SOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000690,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-000847,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000858,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-000725,DCIS,Breast Ductal Carcinoma In Situ,Adherent
+2D,лёгкое,Lung,ACH-000787,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000749,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,лёгкое,Lung,ACH-000868,LUAS,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000213,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000643,IDC,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000991,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000700,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000672,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-002024,READ,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000186,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000677,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000021,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000009,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000980,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000845,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-000711,IDC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000354,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000012,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000963,COAD,Colorectal Adenocarcinoma,Adherent
+2D,желудок,Stomach,ACH-001653,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000698,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,лёгкое,Lung,ACH-003120,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,кишка,Colon,ACH-000342,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000249,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000662,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000867,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-001378,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000248,BRCA,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000261,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000943,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000164,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000783,ILC,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000766,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000343,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-000857,IDC,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-002499,IDC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000535,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000733,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-002544,TSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000774,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000178,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-002886,COAD,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-001145,SOC,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-002654,COAD,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000116,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000921,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-002664,MACR,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-001373,SOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000324,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000759,IDC,Invasive Breast Carcinoma,Adherent
+2D,яичник,Ovary,ACH-001340,SOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-001369,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-000842,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000517,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000681,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-003012,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000108,PAASC,Adenosquamous Carcinoma of the Pancreas,Adherent
+2D,лёгкое,Lung,ACH-000482,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-002672,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,желудок,Stomach,ACH-000758,TSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000910,BRCA,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000997,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000779,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000866,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,желудок,Stomach,ACH-002446,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000811,SOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000584,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000586,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,лёгкое,Lung,ACH-000451,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-002662,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000378,LUAS,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000982,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000575,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000379,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000454,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000712,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000161,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000395,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000308,SOC,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-001459,READ,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000511,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000916,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-000144,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000837,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000048,EOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000463,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000467,COAD,Colorectal Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000147,IDC,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000930,IDC,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000861,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000565,READ,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000399,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,кишка,Colon,ACH-002539,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000066,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-000507,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000107,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000022,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000374,IDC,Invasive Breast Carcinoma,Adherent
+2D,желудок,Stomach,ACH-000908,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-001461,READ,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000574,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000148,BRCNOS,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000563,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000646,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000562,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000314,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-001705,IDC,Invasive Breast Carcinoma,Adherent
+2D,яичник,Ovary,ACH-000430,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-001630,SOC,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-001392,BRCA,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-002650,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000235,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000381,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000403,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000400,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000757,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000893,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000962,SOC,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000668,IDC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000601,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000635,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000966,EOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000924,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-002532,READ,Colorectal Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000876,BRCA,Invasive Breast Carcinoma,Adherent
+2D,желудок,Stomach,ACH-000225,STSC,Esophagogastric Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000657,EOV,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-000296,COAD,Colorectal Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000624,DCIS,Breast Ductal Carcinoma In Situ,Adherent
+2D,молочная,Breast,ACH-000699,IDC,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000044,ILC,Invasive Breast Carcinoma,Adherent
+2D,яичник,Ovary,ACH-000713,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000719,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000892,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-002921,ILC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000042,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000447,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-001396,BRCA,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000093,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000590,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-000356,DSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000339,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-002486,SOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000553,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000789,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000094,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-002170,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,яичник,Ovary,ACH-001278,SCCO,Ovarian Epithelial Tumor,Adherent
+2D,желудок,Stomach,ACH-000255,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000352,BRCA,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000416,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000205,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000731,LUAS,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000670,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,панкреас,Pancreas,ACH-000599,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-001419,IDC,Invasive Breast Carcinoma,Adherent
+2D,яичник,Ovary,ACH-000103,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000442,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000286,READ,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000841,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000139,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-001390,IDC,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-002025,READ,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-001345,COAD,Colorectal Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-001389,IDC,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000860,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000947,EOV,Ovarian Epithelial Tumor,Adherent
+2D,желудок,Stomach,ACH-000764,MSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000744,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000333,MOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000853,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-001664,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000929,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-001395,ILC,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000390,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-002490,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,желудок,Stomach,ACH-000948,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-001683,ILC,Invasive Breast Carcinoma,Adherent
+2D,яичник,Ovary,ACH-000617,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000311,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000955,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000675,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-001061,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000496,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000270,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000062,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-000155,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000536,IDC,Invasive Breast Carcinoma,Adherent
+2D,желудок,Stomach,ACH-000427,TSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000895,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000683,READ,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000878,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-001380,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000851,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000412,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000891,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-003119,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,лёгкое,Lung,ACH-000603,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-001819,IDC,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-001786,COAD,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-001279,SCCO,Ovarian Epithelial Tumor,Adherent
+2D,панкреас,Pancreas,ACH-001376,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000470,READ,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000813,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,панкреас,Pancreas,ACH-002039,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000118,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000266,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000434,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-002401,IDC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-001999,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000237,MOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000521,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000089,COAD,Colorectal Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000212,BRCA,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000621,IDC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000265,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000132,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-001628,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000906,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,панкреас,Pancreas,ACH-003433,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-001370,SOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000936,MOV,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000849,BRCA,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000028,BRCA,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000665,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000150,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-002531,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-000911,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000013,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-002667,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000652,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000252,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000414,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000091,SOC,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-000007,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000085,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000869,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-002522,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-000277,IDC,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000489,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000023,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000975,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000706,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000460,SOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000443,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-002660,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000986,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000337,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-003121,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,молочная,Breast,ACH-001394,BRCA,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000307,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000281,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000985,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000347,PANET,Pancreatic Neuroendocrine Tumor,Adherent
+2D,кишка,Colon,ACH-001399,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000298,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,лёгкое,Lung,ACH-000251,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-002526,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000350,COAD,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000663,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000826,NSCLC,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000291,SOC,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-001458,COAD,Colorectal Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000721,IDC,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000970,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000886,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000003,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000888,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000669,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000844,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,кишка,Colon,ACH-002659,MACR,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000030,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000589,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000950,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000925,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000409,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,желудок,Stomach,ACH-000616,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000628,LUAS,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000510,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000959,COAD,Colorectal Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000820,COAD,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-002524,EOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000264,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,кишка,Colon,ACH-000967,COAD,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000796,MOV,Ovarian Epithelial Tumor,Adherent
+2D,панкреас,Pancreas,ACH-001353,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-002538,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000060,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000001,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,кишка,Colon,ACH-000957,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-001591,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,кишка,Colon,ACH-002535,READ,Colorectal Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-000097,IDC,Invasive Breast Carcinoma,Adherent
+2D,яичник,Ovary,ACH-000256,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000859,DCIS,Breast Ductal Carcinoma In Situ,Adherent
+2D,лёгкое,Lung,ACH-002035,NSCLCPD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-001719,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,панкреас,Pancreas,ACH-000243,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-001418,SOC,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000927,IDC,Invasive Breast Carcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000502,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000935,COAD,Colorectal Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000843,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-000761,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,желудок,Stomach,ACH-000466,TSTAD,Esophagogastric Adenocarcinoma,Adherent
+2D,лёгкое,Lung,ACH-000840,LUAS,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-001151,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000701,MOV,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000542,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-001632,SOC,Ovarian Epithelial Tumor,Adherent
+2D,панкреас,Pancreas,ACH-000468,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,молочная,Breast,ACH-002399,IDC,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000912,SCLC,Lung Neuroendocrine Tumor,Adherent
+2D,лёгкое,Lung,ACH-000667,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-001048,SOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000015,LCLC,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000791,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-001391,BRCA,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000768,BRCA,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000288,BRCNOS,Invasive Breast Carcinoma,Adherent
+2D,лёгкое,Lung,ACH-000872,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,молочная,Breast,ACH-001662,BRCANOS,Invasive Breast Carcinoma,Adherent
+2D,молочная,Breast,ACH-000349,DCIS,Breast Ductal Carcinoma In Situ,Adherent
+2D,яичник,Ovary,ACH-000524,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000527,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,яичник,Ovary,ACH-000885,CCOV,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000900,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000029,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000718,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,яичник,Ovary,ACH-000278,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,молочная,Breast,ACH-000934,BRCA,Invasive Breast Carcinoma,Adherent
+2D,кишка,Colon,ACH-000202,COAD,Colorectal Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-001379,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000114,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000320,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-000532,READ,Colorectal Adenocarcinoma,Adherent
+2D,яичник,Ovary,ACH-000696,HGSOC,Ovarian Epithelial Tumor,Adherent
+2D,лёгкое,Lung,ACH-000781,LUAD,Non-Small Cell Lung Cancer,Adherent
+2D,лёгкое,Lung,ACH-000747,LUSC,Non-Small Cell Lung Cancer,Adherent
+2D,желудок,Stomach,ACH-003437,STAD,Esophagogastric Adenocarcinoma,Adherent
+2D,панкреас,Pancreas,ACH-000417,PAAD,Pancreatic Adenocarcinoma,Adherent
+2D,кишка,Colon,ACH-002669,COAD,Colorectal Adenocarcinoma,Adherent
+органоид,панкреас,Pancreas,ACH-002421,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002424,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002426,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002448,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002730,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002731,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002733,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002734,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002735,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002736,DSTAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002737,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002738,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002742,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002743,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002744,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002745,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002746,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002748,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002751,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002757,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002777,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-002839,COAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-002840,COAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-002841,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,молочная,Breast,ACH-002882,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-002883,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-002884,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-002885,IDC,Invasive Breast Carcinoma,Dome
+органоид,желудок,Stomach,ACH-002919,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,молочная,Breast,ACH-002947,BRCA,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-002948,BRCA,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-002949,BRCA,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-002950,BRCA,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-002951,BRCA,Invasive Breast Carcinoma,Dome
+органоид,желудок,Stomach,ACH-002952,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002955,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002957,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002958,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002962,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002963,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002967,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002968,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002969,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002972,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002978,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002979,DSTAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-002982,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-002999,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003000,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,яичник,Ovary,ACH-003001,LGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003003,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003005,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003007,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003009,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003011,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,панкреас,Pancreas,ACH-003013,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003014,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003015,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,молочная,Breast,ACH-003022,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003023,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003024,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003026,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003027,ILC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003030,BRCA,Invasive Breast Carcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003031,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003035,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003036,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003039,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003040,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003041,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003044,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003045,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003046,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003047,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,яичник,Ovary,ACH-003050,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003051,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003053,LGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003054,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,яичник,Ovary,ACH-003056,HGSOC,Ovarian Epithelial Tumor,Dome
+органоид,панкреас,Pancreas,ACH-003122,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003126,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,молочная,Breast,ACH-003127,BRCA,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003129,BRCA,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003130,BRCA,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003131,BRCA,Invasive Breast Carcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003193,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,молочная,Breast,ACH-003210,DCIS,Breast Ductal Carcinoma In Situ,Dome
+органоид,молочная,Breast,ACH-003215,MDLC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003216,IDC,Invasive Breast Carcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003331,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003332,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003333,MACR,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003334,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003335,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003336,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003337,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003341,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003342,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003345,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003346,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003348,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,яичник,Ovary,ACH-003350,MOV,Ovarian Epithelial Tumor,Dome
+органоид,молочная,Breast,ACH-003359,IDC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003360,BRCA,Invasive Breast Carcinoma,Dome
+органоид,кишка,Colon,ACH-003363,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003364,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003365,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003366,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003367,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003369,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003370,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003371,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003373,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,молочная,Breast,ACH-003374,BRCA,Invasive Breast Carcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003378,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003379,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003380,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003382,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003386,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003387,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003388,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003389,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003390,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003391,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003399,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003400,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003401,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003402,COADREAD,Colorectal Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003416,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003424,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003425,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003432,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003434,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003466,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003467,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003477,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,панкреас,Pancreas,ACH-003479,PAAD,Pancreatic Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003624,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003626,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003627,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003628,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003629,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003630,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,желудок,Stomach,ACH-003631,STAD,Esophagogastric Adenocarcinoma,Dome
+органоид,молочная,Breast,ACH-003704,BRCA,Invasive Breast Carcinoma,Dome
+органоид,кишка,Colon,ACH-003705,COAD,Colorectal Adenocarcinoma,Dome
+органоид,кишка,Colon,ACH-003707,COAD,Colorectal Adenocarcinoma,Dome
+органоид,лёгкое,Lung,ACH-003720,LUAD,Non-Small Cell Lung Cancer,Dome
+органоид,лёгкое,Lung,ACH-003721,LUAD,Non-Small Cell Lung Cancer,Dome
+органоид,яичник,Ovary,ACH-003723,MOV,Ovarian Epithelial Tumor,Dome
+органоид,молочная,Breast,ACH-003834,MDLC,Invasive Breast Carcinoma,Dome
+органоид,молочная,Breast,ACH-003839,MDLC,Invasive Breast Carcinoma,Dome

@@ -1,0 +1,307 @@
+{
+  "expression_checks": [
+    {
+      "composition": "MLKL + PGAM5",
+      "layer": "Healthy epithelium",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "MLKL + PGAM5",
+      "layer": "Malignant epithelium",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "MLKL + PGAM5",
+      "layer": "3D dome models",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "MLKL + PGAM5",
+      "layer": "2D adherent models",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "MLKL",
+      "layer": "Healthy epithelium",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "MLKL",
+      "layer": "Malignant epithelium",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "MLKL",
+      "layer": "3D dome models",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "MLKL",
+      "layer": "2D adherent models",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "PGAM5",
+      "layer": "Healthy epithelium",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "PGAM5",
+      "layer": "Malignant epithelium",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "PGAM5",
+      "layer": "3D dome models",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    },
+    {
+      "composition": "PGAM5",
+      "layer": "2D adherent models",
+      "score_matches_1dp": true,
+      "band_matches_1dp": true,
+      "outside_flag_matches": true
+    }
+  ],
+  "screen_checks": [
+    {
+      "arm": "JAK1_KO_C1",
+      "composition": "MLKL + PGAM5",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": -0.1535,
+      "supplied": -0.153,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C1",
+      "composition": "MLKL + PGAM5",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": -0.0165,
+      "supplied": -0.017,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C1",
+      "composition": "MLKL + PGAM5",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": -0.134,
+      "supplied": -0.134,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C1",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": -0.072,
+      "supplied": -0.072,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C1",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": -0.154,
+      "supplied": -0.154,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C1",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": -0.322,
+      "supplied": -0.322,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C3",
+      "composition": "MLKL + PGAM5",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": -0.2495,
+      "supplied": -0.249,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C3",
+      "composition": "MLKL + PGAM5",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": 0.0635,
+      "supplied": 0.064,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C3",
+      "composition": "MLKL + PGAM5",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": 0.035500000000000004,
+      "supplied": 0.036,
+      "absolute_difference": 0.0004999999999999935,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C3",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": -0.004,
+      "supplied": -0.004,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C3",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": 0.025,
+      "supplied": 0.025,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "JAK1_KO_C3",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": -0.267,
+      "supplied": -0.267,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT D14",
+      "composition": "MLKL + PGAM5",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": -0.3315,
+      "supplied": -0.332,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT D14",
+      "composition": "MLKL + PGAM5",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": 0.0935,
+      "supplied": 0.093,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT D14",
+      "composition": "MLKL + PGAM5",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": 0.0885,
+      "supplied": 0.088,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT D14",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": -0.229,
+      "supplied": -0.229,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT D14",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": 0.143,
+      "supplied": 0.143,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT D14",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": -0.011,
+      "supplied": -0.011,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT Scr",
+      "composition": "MLKL + PGAM5",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": -0.025499999999999995,
+      "supplied": -0.025,
+      "absolute_difference": 0.0004999999999999935,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT Scr",
+      "composition": "MLKL + PGAM5",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": -0.4645,
+      "supplied": -0.465,
+      "absolute_difference": 0.0005000000000000004,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT Scr",
+      "composition": "MLKL + PGAM5",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": -0.20400000000000001,
+      "supplied": -0.204,
+      "absolute_difference": 2.7755575615628914e-17,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT Scr",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "baseline",
+      "recomputed_from_rounded_genes": 0.267,
+      "supplied": 0.267,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT Scr",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IFNg",
+      "recomputed_from_rounded_genes": -0.918,
+      "supplied": -0.918,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    },
+    {
+      "arm": "WT Scr",
+      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "condition": "IL6",
+      "recomputed_from_rounded_genes": -0.234,
+      "supplied": -0.234,
+      "absolute_difference": 0.0,
+      "within_input_rounding": true
+    }
+  ],
+  "scope": "Derived-table reconstruction. Individual-gene cluster-bootstrap intervals and raw-data reanalysis are not performed."
+}

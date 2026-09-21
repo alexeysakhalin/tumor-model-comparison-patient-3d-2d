@@ -1,0 +1,801 @@
+layer,gene,score_pp
+Healthy epithelium,ABCG8,0.294164657593
+Healthy epithelium,ACER2,15.6407823563
+Healthy epithelium,ADAMTS12,1.71697044373
+Healthy epithelium,ADCYAP1R1,0
+Healthy epithelium,ADGRG1,-8.39109039307
+Healthy epithelium,ADPRHL1,-8.45522975922
+Healthy epithelium,AGAP4,-14.3150253296
+Healthy epithelium,AHRR,-28.5675926208
+Healthy epithelium,AKAP9,32.8420543671
+Healthy epithelium,ALDH16A1,-7.00623512268
+Healthy epithelium,AMHR2,2.06318497658
+Healthy epithelium,AMY1C,0
+Healthy epithelium,ANLN,-36.3669919968
+Healthy epithelium,ARL4A,7.4296836853
+Healthy epithelium,ASS1,-6.05455970764
+Healthy epithelium,ATP5PD,-1.24785232544
+Healthy epithelium,ATRNL1,16.2717599869
+Healthy epithelium,B3GNT7,18.1479024887
+Healthy epithelium,BBS10,-18.0239906311
+Healthy epithelium,BICC1,24.8969078064
+Healthy epithelium,BLOC1S3,-25.5544147491
+Healthy epithelium,BTBD16,4.65156888962
+Healthy epithelium,BTC,-1.0728969574
+Healthy epithelium,C12orf56,-4.5199341774
+Healthy epithelium,CACNG2,13.5060713291
+Healthy epithelium,CCNB3,-2.02255296707
+Healthy epithelium,CCNG1,1.07592391968
+Healthy epithelium,CCNQ,-11.7800331116
+Healthy epithelium,CCR6,0
+Healthy epithelium,CD40,1.85263442993
+Healthy epithelium,CD8B,3.52259373665
+Healthy epithelium,CDCP2,-3.59613406658
+Healthy epithelium,CDNF,0.624597549438
+Healthy epithelium,CENPH,-28.2136516571
+Healthy epithelium,CEP44,-0.979878425598
+Healthy epithelium,CEP68,11.3884840012
+Healthy epithelium,CFAP69,22.9284181595
+Healthy epithelium,CIRBP,4.91484069824
+Healthy epithelium,CNGA2,0
+Healthy epithelium,CNTRL,14.0094432831
+Healthy epithelium,COL15A1,11.0123839378
+Healthy epithelium,CSNK1A1,8.10062217712
+Healthy epithelium,CSRP2,2.89127922058
+Healthy epithelium,CTRB1,-7.79470205307
+Healthy epithelium,CXorf66,0
+Healthy epithelium,CYP11B1,0
+Healthy epithelium,CYP3A5,28.5863952637
+Healthy epithelium,DEFB126,0
+Healthy epithelium,DENND10,-5.03975868225
+Healthy epithelium,DPH2,-29.2432308197
+Healthy epithelium,DUSP3,1.2626247406
+Healthy epithelium,EDA2R,8.15938615799
+Healthy epithelium,EDNRB,6.92698383331
+Healthy epithelium,EEF1B2,1.387550354
+Healthy epithelium,ENPP1,14.224357605
+Healthy epithelium,FAHD1,-6.65867710114
+Healthy epithelium,FAM161B,-6.78292179108
+Healthy epithelium,FBXO2,9.62181663513
+Healthy epithelium,FCRL5,-1.7434990406
+Healthy epithelium,FGF16,0
+Healthy epithelium,FOXJ3,22.8320465088
+Healthy epithelium,FOXO1,40.3657588959
+Healthy epithelium,FSHR,10.5288250446
+Healthy epithelium,FTMT,0
+Healthy epithelium,FXR2,-13.3495883942
+Healthy epithelium,FYB1,13.3646974564
+Healthy epithelium,GANAB,-15.0272693634
+Healthy epithelium,GAS1,3.60923099518
+Healthy epithelium,GBF1,19.9669551849
+Healthy epithelium,GPNMB,-2.48965835571
+Healthy epithelium,GPR137,-11.1232013702
+Healthy epithelium,GPR45,-17.2133569717
+Healthy epithelium,GRIA1,6.13314056396
+Healthy epithelium,GRIN2D,-12.5486922264
+Healthy epithelium,GUCD1,-3.6921710968
+Healthy epithelium,HES4,26.7398052216
+Healthy epithelium,HMOX2,2.42619132996
+Healthy epithelium,HNRNPU,3.61326026917
+Healthy epithelium,IQSEC3,0.159172058105
+Healthy epithelium,IYD,6.76311016083
+Healthy epithelium,IZUMO3,17.8581027985
+Healthy epithelium,KHDC4,6.21272277832
+Healthy epithelium,KLLN,-7.29368019104
+Healthy epithelium,KNOP1,5.94408416748
+Healthy epithelium,KRTAP5-5,0
+Healthy epithelium,LAP3,2.92754745483
+Healthy epithelium,LARGE2,-9.95124053955
+Healthy epithelium,LRFN3,-9.0361738205
+Healthy epithelium,LRRC28,11.9580106735
+Healthy epithelium,LUZP1,17.2596969604
+Healthy epithelium,LY86,12.0419623852
+Healthy epithelium,LYVE1,15.7378311157
+Healthy epithelium,MAPKBP1,10.5600528717
+Healthy epithelium,MBNL1,23.1883296967
+Healthy epithelium,MBTPS2,-7.26648044586
+Healthy epithelium,MCF2L,14.374124527
+Healthy epithelium,MICALL2,-4.29225444794
+Healthy epithelium,MIS18BP1,4.23483467102
+Healthy epithelium,MKRN2OS,4.9014081955
+Healthy epithelium,MMP14,-8.50257873535
+Healthy epithelium,MPST,20.9119110107
+Healthy epithelium,MRPL50,-0.125587463379
+Healthy epithelium,MRPS26,3.8006439209
+Healthy epithelium,NAGA,-19.0434951782
+Healthy epithelium,NCF4,5.4974603653
+Healthy epithelium,NEK4,1.25826072693
+Healthy epithelium,NHSL1,37.8143138885
+Healthy epithelium,NKIRAS1,-6.35476875305
+Healthy epithelium,NLGN2,-17.1515693665
+Healthy epithelium,NOLC1,-7.88637924194
+Healthy epithelium,NR2C2AP,-20.3954429626
+Healthy epithelium,NT5DC4,-11.6739199162
+Healthy epithelium,OARD1,0.895925521851
+Healthy epithelium,OR51G2,0
+Healthy epithelium,OR52J3,0
+Healthy epithelium,OR5D14,0
+Healthy epithelium,OR5J2,0
+Healthy epithelium,OTOS,0
+Healthy epithelium,OVOL3,-4.32449531555
+Healthy epithelium,PCDH8,-4.40441703796
+Healthy epithelium,PELI2,54.1780834198
+Healthy epithelium,PHF2,5.11497879028
+Healthy epithelium,PIGZ,3.37215232849
+Healthy epithelium,PODXL,-3.13205623627
+Healthy epithelium,PPP1R3B,6.57103157043
+Healthy epithelium,PRAC2,-7.75642061234
+Healthy epithelium,PRKAB1,-13.1971340179
+Healthy epithelium,PROM1,37.8744211197
+Healthy epithelium,PRSS12,12.560447216
+Healthy epithelium,PTPRB,7.39811754227
+Healthy epithelium,PUM3,15.3859081268
+Healthy epithelium,RAB5A,14.7626514435
+Healthy epithelium,RANBP2,24.5778923035
+Healthy epithelium,RARA,-1.99333667755
+Healthy epithelium,RASSF6,39.7529172897
+Healthy epithelium,REX1BD,11.3267021179
+Healthy epithelium,RNASEH2B,0.945625305176
+Healthy epithelium,RPGRIP1L,-8.165766716
+Healthy epithelium,RPL7,1.37680435181
+Healthy epithelium,S100G,4.84364938736
+Healthy epithelium,SAGE1,-3.72609066963
+Healthy epithelium,SCAMP1,7.48509216309
+Healthy epithelium,SCAPER,38.9194469452
+Healthy epithelium,SCTR,31.3789491653
+Healthy epithelium,SDHA,-15.1609191895
+Healthy epithelium,SLC16A14,-11.4425492287
+Healthy epithelium,SLC1A2,7.15465927124
+Healthy epithelium,SLC1A5,-11.3414707184
+Healthy epithelium,SLC35C1,-10.9942502975
+Healthy epithelium,SLC35D1,13.2548904419
+Healthy epithelium,SLC7A9,-3.11962842941
+Healthy epithelium,SMIM40,0
+Healthy epithelium,SOBP,27.690805912
+Healthy epithelium,SPATA9,-4.60086107254
+Healthy epithelium,SPRY3,10.8720188141
+Healthy epithelium,SRCAP,-22.0546569824
+Healthy epithelium,SULT1E1,2.25358581543
+Healthy epithelium,SYNDIG1,9.02509212494
+Healthy epithelium,TAFA3,-9.07109737396
+Healthy epithelium,TAS2R8,0
+Healthy epithelium,TBCEL,-16.0064764023
+Healthy epithelium,TCF24,-10.6879971027
+Healthy epithelium,TCL1A,-15.0265965462
+Healthy epithelium,TCP11X2,0
+Healthy epithelium,TGFBR2,19.5445194244
+Healthy epithelium,TGM7,3.18074369431
+Healthy epithelium,TIGD5,0.286106109619
+Healthy epithelium,TMEM192,5.85979270935
+Healthy epithelium,TMEM241,12.0312156677
+Healthy epithelium,TMEM266,7.615046978
+Healthy epithelium,TNFAIP2,-9.33000183105
+Healthy epithelium,TNRC6A,27.5830116272
+Healthy epithelium,TP53TG3B,-8.10632872581
+Healthy epithelium,TRA2B,1.63839149475
+Healthy epithelium,TRIM49B,0
+Healthy epithelium,TULP1,-7.62411403656
+Healthy epithelium,UBA5,-1.72536277771
+Healthy epithelium,UBE2D2,12.155128479
+Healthy epithelium,UBE2M,0.511764526367
+Healthy epithelium,UNC80,9.92370510101
+Healthy epithelium,UQCC1,-2.58502578735
+Healthy epithelium,USP35,-20.7728877068
+Healthy epithelium,USP9Y,0
+Healthy epithelium,VCX2,0
+Healthy epithelium,VIPR2,11.1161489487
+Healthy epithelium,VLDLR,-0.475164413452
+Healthy epithelium,WAPL,18.9071578979
+Healthy epithelium,ZBTB47,-0.138687133789
+Healthy epithelium,ZFP64,-3.4591255188
+Healthy epithelium,ZNF132,-6.64255714417
+Healthy epithelium,ZNF222,-21.7494087219
+Healthy epithelium,ZNF26,2.59913253784
+Healthy epithelium,ZNF319,-14.610871315
+Healthy epithelium,ZNF335,4.36579799652
+Healthy epithelium,ZNF396,-0.159171104431
+Healthy epithelium,ZNF491,4.81409645081
+Healthy epithelium,ZNF582,0.764290809631
+Healthy epithelium,ZNF688,3.18779373169
+Healthy epithelium,ZNF718,16.0306510925
+Healthy epithelium,ZRANB2,16.4947357178
+Malignant epithelium,ABCG8,1.17498111725
+Malignant epithelium,ACER2,-10.2313017845
+Malignant epithelium,ADAMTS12,0
+Malignant epithelium,ADCYAP1R1,0
+Malignant epithelium,ADGRG1,0.171258926392
+Malignant epithelium,ADPRHL1,-3.41043376923
+Malignant epithelium,AGAP4,-10.1896629333
+Malignant epithelium,AHRR,-7.64896249771
+Malignant epithelium,AKAP9,29.7194023132
+Malignant epithelium,ALDH16A1,-0.510423660278
+Malignant epithelium,AMHR2,3.90272426605
+Malignant epithelium,AMY1C,0
+Malignant epithelium,ANLN,-30.7872619629
+Malignant epithelium,ARL4A,10.8270187378
+Malignant epithelium,ASS1,5.01356506348
+Malignant epithelium,ATP5PD,-0.713916778564
+Malignant epithelium,ATRNL1,-12.9660971165
+Malignant epithelium,B3GNT7,18.2704725266
+Malignant epithelium,BBS10,-11.0634269714
+Malignant epithelium,BICC1,1.92550373077
+Malignant epithelium,BLOC1S3,-9.16411495209
+Malignant epithelium,BTBD16,8.19195842743
+Malignant epithelium,BTC,0.129621505737
+Malignant epithelium,C12orf56,0.264614105225
+Malignant epithelium,CACNG2,0
+Malignant epithelium,CCNB3,-9.47977018356
+Malignant epithelium,CCNG1,-10.1822757721
+Malignant epithelium,CCNQ,3.81340026855
+Malignant epithelium,CCR6,21.5083007812
+Malignant epithelium,CD40,10.4116301537
+Malignant epithelium,CD8B,21.7081053257
+Malignant epithelium,CDCP2,0
+Malignant epithelium,CDNF,-4.83088779449
+Malignant epithelium,CENPH,-14.4167737961
+Malignant epithelium,CEP44,-4.67238903046
+Malignant epithelium,CEP68,11.2420740128
+Malignant epithelium,CFAP69,5.73554611206
+Malignant epithelium,CIRBP,1.00875854492
+Malignant epithelium,CNGA2,0
+Malignant epithelium,CNTRL,4.56896018982
+Malignant epithelium,COL15A1,8.79808759689
+Malignant epithelium,CSNK1A1,3.27879714966
+Malignant epithelium,CSRP2,-5.93501472473
+Malignant epithelium,CTRB1,0
+Malignant epithelium,CXorf66,0
+Malignant epithelium,CYP11B1,0
+Malignant epithelium,CYP3A5,19.3551197052
+Malignant epithelium,DEFB126,0
+Malignant epithelium,DENND10,5.40242767334
+Malignant epithelium,DPH2,-16.2408647537
+Malignant epithelium,DUSP3,5.92762756348
+Malignant epithelium,EDA2R,0
+Malignant epithelium,EDNRB,0
+Malignant epithelium,EEF1B2,0.498332977295
+Malignant epithelium,ENPP1,7.12913608551
+Malignant epithelium,FAHD1,0.126264572144
+Malignant epithelium,FAM161B,-7.42531776428
+Malignant epithelium,FBXO2,14.7391490936
+Malignant epithelium,FCRL5,0
+Malignant epithelium,FGF16,0
+Malignant epithelium,FOXJ3,1.45201873779
+Malignant epithelium,FOXO1,13.7438182831
+Malignant epithelium,FSHR,0
+Malignant epithelium,FTMT,0
+Malignant epithelium,FXR2,-11.6974287033
+Malignant epithelium,FYB1,17.7990016937
+Malignant epithelium,GANAB,-8.48108673096
+Malignant epithelium,GAS1,2.19851350784
+Malignant epithelium,GBF1,-6.99347114563
+Malignant epithelium,GPNMB,2.6172618866
+Malignant epithelium,GPR137,-3.59848403931
+Malignant epithelium,GPR45,0
+Malignant epithelium,GRIA1,0
+Malignant epithelium,GRIN2D,-2.96817874908
+Malignant epithelium,GUCD1,-4.26338005066
+Malignant epithelium,HES4,25.8630180359
+Malignant epithelium,HMOX2,2.04236412048
+Malignant epithelium,HNRNPU,0.550045013428
+Malignant epithelium,IQSEC3,0
+Malignant epithelium,IYD,25.4540071487
+Malignant epithelium,IZUMO3,0
+Malignant epithelium,KHDC4,6.83967590332
+Malignant epithelium,KLLN,-0.0685033798218
+Malignant epithelium,KNOP1,14.6451187134
+Malignant epithelium,KRTAP5-5,0
+Malignant epithelium,LAP3,2.26467132568
+Malignant epithelium,LARGE2,-0.129620552063
+Malignant epithelium,LRFN3,-1.99804019928
+Malignant epithelium,LRRC28,-1.68876171112
+Malignant epithelium,LUZP1,17.6599798203
+Malignant epithelium,LY86,17.3933491707
+Malignant epithelium,LYVE1,0
+Malignant epithelium,MAPKBP1,-6.46692943573
+Malignant epithelium,MBNL1,6.76646614075
+Malignant epithelium,MBTPS2,-5.86650943756
+Malignant epithelium,MCF2L,6.0585899353
+Malignant epithelium,MICALL2,5.42660713196
+Malignant epithelium,MIS18BP1,2.69516944885
+Malignant epithelium,MKRN2OS,-4.10958003998
+Malignant epithelium,MMP14,0.187377929688
+Malignant epithelium,MPST,18.2382354736
+Malignant epithelium,MRPL50,11.8324222565
+Malignant epithelium,MRPS26,8.93509101868
+Malignant epithelium,NAGA,-5.48503684998
+Malignant epithelium,NCF4,14.4705038071
+Malignant epithelium,NEK4,-2.29892158508
+Malignant epithelium,NHSL1,7.57240009308
+Malignant epithelium,NKIRAS1,-5.86852741241
+Malignant epithelium,NLGN2,-13.1756372452
+Malignant epithelium,NOLC1,-3.61393356323
+Malignant epithelium,NR2C2AP,-4.78656387329
+Malignant epithelium,NT5DC4,0
+Malignant epithelium,OARD1,6.10090065002
+Malignant epithelium,OR51G2,0
+Malignant epithelium,OR52J3,0
+Malignant epithelium,OR5D14,0
+Malignant epithelium,OR5J2,0
+Malignant epithelium,OTOS,0
+Malignant epithelium,OVOL3,-0.443934440613
+Malignant epithelium,PCDH8,0
+Malignant epithelium,PELI2,16.5864086151
+Malignant epithelium,PHF2,-3.63676452637
+Malignant epithelium,PIGZ,6.8967590332
+Malignant epithelium,PODXL,-3.51251888275
+Malignant epithelium,PPP1R3B,13.4691324234
+Malignant epithelium,PRAC2,6.59218549728
+Malignant epithelium,PRKAB1,-2.30765151978
+Malignant epithelium,PROM1,23.0694570541
+Malignant epithelium,PRSS12,-3.93496131897
+Malignant epithelium,PTPRB,2.63002490997
+Malignant epithelium,PUM3,3.61661911011
+Malignant epithelium,RAB5A,6.76042366028
+Malignant epithelium,RANBP2,13.9560489655
+Malignant epithelium,RARA,4.00078010559
+Malignant epithelium,RASSF6,26.0463676453
+Malignant epithelium,REX1BD,18.1918907166
+Malignant epithelium,RNASEH2B,2.07258605957
+Malignant epithelium,RPGRIP1L,0.577584266663
+Malignant epithelium,RPL7,1.11017227173
+Malignant epithelium,S100G,0
+Malignant epithelium,SAGE1,0
+Malignant epithelium,SCAMP1,-0.75287437439
+Malignant epithelium,SCAPER,12.5980548859
+Malignant epithelium,SCTR,9.27493000031
+Malignant epithelium,SDHA,-5.18751525879
+Malignant epithelium,SLC16A14,-8.29639482498
+Malignant epithelium,SLC1A2,1.44563961029
+Malignant epithelium,SLC1A5,-9.13120269775
+Malignant epithelium,SLC35C1,3.33790016174
+Malignant epithelium,SLC35D1,1.33919048309
+Malignant epithelium,SLC7A9,1.03931522369
+Malignant epithelium,SMIM40,0
+Malignant epithelium,SOBP,0.958387851715
+Malignant epithelium,SPATA9,-11.0614123344
+Malignant epithelium,SPRY3,-1.62059402466
+Malignant epithelium,SRCAP,-21.2490606308
+Malignant epithelium,SULT1E1,0.186707496643
+Malignant epithelium,SYNDIG1,0
+Malignant epithelium,TAFA3,0
+Malignant epithelium,TAS2R8,0
+Malignant epithelium,TBCEL,-7.10092926025
+Malignant epithelium,TCF24,-1.0161447525
+Malignant epithelium,TCL1A,-1.77842235565
+Malignant epithelium,TCP11X2,0
+Malignant epithelium,TGFBR2,2.38690567017
+Malignant epithelium,TGM7,0
+Malignant epithelium,TIGD5,4.62873363495
+Malignant epithelium,TMEM192,4.999127388
+Malignant epithelium,TMEM241,-6.82691478729
+Malignant epithelium,TMEM266,-4.54310369492
+Malignant epithelium,TNFAIP2,0.38046836853
+Malignant epithelium,TNRC6A,13.4489879608
+Malignant epithelium,TP53TG3B,0
+Malignant epithelium,TRA2B,-1.06450271606
+Malignant epithelium,TRIM49B,0
+Malignant epithelium,TULP1,0
+Malignant epithelium,UBA5,-8.17819213867
+Malignant epithelium,UBE2D2,6.29903030396
+Malignant epithelium,UBE2M,-1.96244239807
+Malignant epithelium,UNC80,0
+Malignant epithelium,UQCC1,-16.0729618073
+Malignant epithelium,USP35,-10.0989942551
+Malignant epithelium,USP9Y,7.80947780609
+Malignant epithelium,VCX2,0
+Malignant epithelium,VIPR2,6.10829043388
+Malignant epithelium,VLDLR,-5.38966941833
+Malignant epithelium,WAPL,11.2884140015
+Malignant epithelium,ZBTB47,-7.19831180573
+Malignant epithelium,ZFP64,-8.18692111969
+Malignant epithelium,ZNF132,-13.4818921089
+Malignant epithelium,ZNF222,-10.9351501465
+Malignant epithelium,ZNF26,1.33247280121
+Malignant epithelium,ZNF319,-4.46083259583
+Malignant epithelium,ZNF335,5.33929634094
+Malignant epithelium,ZNF396,2.02490329742
+Malignant epithelium,ZNF491,-5.13311338425
+Malignant epithelium,ZNF582,-0.843878269196
+Malignant epithelium,ZNF688,15.8896121979
+Malignant epithelium,ZNF718,-5.34601306915
+Malignant epithelium,ZRANB2,6.38297653198
+3D dome models,ABCG8,5.31646251678
+3D dome models,ACER2,5.9699382782
+3D dome models,ADAMTS12,-7.24263954163
+3D dome models,ADCYAP1R1,0
+3D dome models,ADGRG1,0.644075393677
+3D dome models,ADPRHL1,5.07065391541
+3D dome models,AGAP4,-8.99554157257
+3D dome models,AHRR,-3.69721126556
+3D dome models,AKAP9,-0.373416900635
+3D dome models,ALDH16A1,-5.89505672455
+3D dome models,AMHR2,0
+3D dome models,AMY1C,0
+3D dome models,ANLN,-7.04249763489
+3D dome models,ARL4A,8.78666687012
+3D dome models,ASS1,7.43337249756
+3D dome models,ATP5PD,0.537288665771
+3D dome models,ATRNL1,-2.61659145355
+3D dome models,B3GNT7,11.1319322586
+3D dome models,BBS10,2.93829154968
+3D dome models,BICC1,-0.374756813049
+3D dome models,BLOC1S3,5.37556362152
+3D dome models,BTBD16,5.17139339447
+3D dome models,BTC,1.53127002716
+3D dome models,C12orf56,1.60850572586
+3D dome models,CACNG2,0
+3D dome models,CCNB3,-0.891896724701
+3D dome models,CCNG1,3.65489768982
+3D dome models,CCNQ,1.38418388367
+3D dome models,CCR6,14.8895874023
+3D dome models,CD40,1.21427536011
+3D dome models,CD8B,2.22302794456
+3D dome models,CDCP2,0
+3D dome models,CDNF,3.81541538239
+3D dome models,CENPH,-1.95236968994
+3D dome models,CEP44,-5.22780990601
+3D dome models,CEP68,0.998683929443
+3D dome models,CFAP69,0.118203163147
+3D dome models,CIRBP,1.26598548889
+3D dome models,CNGA2,0
+3D dome models,CNTRL,-6.48036003113
+3D dome models,COL15A1,0
+3D dome models,CSNK1A1,-0.787797927856
+3D dome models,CSRP2,1.9490070343
+3D dome models,CTRB1,0
+3D dome models,CXorf66,0
+3D dome models,CYP11B1,0
+3D dome models,CYP3A5,10.638297081
+3D dome models,DEFB126,0
+3D dome models,DENND10,3.02828598022
+3D dome models,DPH2,-1.37948608398
+3D dome models,DUSP3,4.8446521759
+3D dome models,EDA2R,0
+3D dome models,EDNRB,-2.32376861572
+3D dome models,EEF1B2,0.503705978394
+3D dome models,ENPP1,3.65758705139
+3D dome models,FAHD1,1.91945648193
+3D dome models,FAM161B,1.91812038422
+3D dome models,FBXO2,8.06334590912
+3D dome models,FCRL5,0
+3D dome models,FGF16,0
+3D dome models,FOXJ3,-0.168569564819
+3D dome models,FOXO1,6.17075061798
+3D dome models,FSHR,0
+3D dome models,FTMT,0
+3D dome models,FXR2,-3.37886810303
+3D dome models,FYB1,-0.901971340179
+3D dome models,GANAB,-0.560117721558
+3D dome models,GAS1,2.86542272568
+3D dome models,GBF1,1.76633644104
+3D dome models,GPNMB,-9.76386165619
+3D dome models,GPR137,-1.83282279968
+3D dome models,GPR45,0
+3D dome models,GRIA1,0
+3D dome models,GRIN2D,-1.81133031845
+3D dome models,GUCD1,-1.80125808716
+3D dome models,HES4,-13.8405323029
+3D dome models,HMOX2,0.431844711304
+3D dome models,HNRNPU,-0.146409988403
+3D dome models,IQSEC3,0
+3D dome models,IYD,16.4087672234
+3D dome models,IZUMO3,0
+3D dome models,KHDC4,-12.7323760986
+3D dome models,KLLN,1.25255298615
+3D dome models,KNOP1,-1.35194969177
+3D dome models,KRTAP5-5,0
+3D dome models,LAP3,2.8832244873
+3D dome models,LARGE2,9.7940826416
+3D dome models,LRFN3,-2.94064235687
+3D dome models,LRRC28,5.82487106323
+3D dome models,LUZP1,-6.48170471191
+3D dome models,LY86,0
+3D dome models,LYVE1,0
+3D dome models,MAPKBP1,-6.44476890564
+3D dome models,MBNL1,0.377445220947
+3D dome models,MBTPS2,1.74416923523
+3D dome models,MCF2L,4.63276195526
+3D dome models,MICALL2,-11.5624303818
+3D dome models,MIS18BP1,-11.7061567307
+3D dome models,MKRN2OS,8.37161540985
+3D dome models,MMP14,-3.39162826538
+3D dome models,MPST,12.7108840942
+3D dome models,MRPL50,7.91626358032
+3D dome models,MRPS26,3.11156654358
+3D dome models,NAGA,3.65422916412
+3D dome models,NCF4,3.68680143356
+3D dome models,NEK4,-1.09270763397
+3D dome models,NHSL1,2.30563735962
+3D dome models,NKIRAS1,0.613182067871
+3D dome models,NLGN2,-3.42453765869
+3D dome models,NOLC1,-2.55211448669
+3D dome models,NR2C2AP,1.76566314697
+3D dome models,NT5DC4,-3.54475688934
+3D dome models,OARD1,6.44947052002
+3D dome models,OR51G2,0
+3D dome models,OR52J3,0
+3D dome models,OR5D14,0
+3D dome models,OR5J2,0
+3D dome models,OTOS,0
+3D dome models,OVOL3,-12.2118797302
+3D dome models,PCDH8,0
+3D dome models,PELI2,9.88542413712
+3D dome models,PHF2,1.62227344513
+3D dome models,PIGZ,2.97724628448
+3D dome models,PODXL,-3.7301197052
+3D dome models,PPP1R3B,11.6625022888
+3D dome models,PRAC2,4.96991205215
+3D dome models,PRKAB1,14.30327034
+3D dome models,PROM1,50.5916891098
+3D dome models,PRSS12,8.75241756439
+3D dome models,PTPRB,-1.92550563812
+3D dome models,PUM3,-2.04841423035
+3D dome models,RAB5A,5.2130355835
+3D dome models,RANBP2,-1.09539604187
+3D dome models,RARA,1.52186870575
+3D dome models,RASSF6,16.2798204422
+3D dome models,REX1BD,-19.7251768112
+3D dome models,RNASEH2B,0.270658493042
+3D dome models,RPGRIP1L,1.34523582458
+3D dome models,RPL7,0.989948272705
+3D dome models,S100G,0
+3D dome models,SAGE1,0
+3D dome models,SCAMP1,2.23310279846
+3D dome models,SCAPER,-0.0987281799316
+3D dome models,SCTR,0
+3D dome models,SDHA,-2.06922531128
+3D dome models,SLC16A14,-1.35127830505
+3D dome models,SLC1A2,2.80867099762
+3D dome models,SLC1A5,-0.401622772217
+3D dome models,SLC35C1,5.70331001282
+3D dome models,SLC35D1,-0.0248508453369
+3D dome models,SLC7A9,1.82745027542
+3D dome models,SMIM40,0
+3D dome models,SOBP,1.23106193542
+3D dome models,SPATA9,-2.57830905914
+3D dome models,SPRY3,-0.0329084396362
+3D dome models,SRCAP,-15.5282917023
+3D dome models,SULT1E1,9.61644458771
+3D dome models,SYNDIG1,0
+3D dome models,TAFA3,-6.16705608368
+3D dome models,TAS2R8,0
+3D dome models,TBCEL,-1.31635665894
+3D dome models,TCF24,2.9994096756
+3D dome models,TCL1A,-12.6121585369
+3D dome models,TCP11X2,0
+3D dome models,TGFBR2,3.70795726776
+3D dome models,TGM7,0
+3D dome models,TIGD5,-0.478857040405
+3D dome models,TMEM192,5.7603969574
+3D dome models,TMEM241,-0.390206336975
+3D dome models,TMEM266,-3.70862865448
+3D dome models,TNFAIP2,2.22236251831
+3D dome models,TNRC6A,-14.0547742844
+3D dome models,TP53TG3B,0
+3D dome models,TRA2B,-0.751527786255
+3D dome models,TRIM49B,0
+3D dome models,TULP1,-10.8888084888
+3D dome models,UBA5,-9.11005210876
+3D dome models,UBE2D2,0.402965545654
+3D dome models,UBE2M,-1.03830909729
+3D dome models,UNC80,0.672952651978
+3D dome models,UQCC1,-0.746158599854
+3D dome models,USP35,-4.18144321442
+3D dome models,USP9Y,0
+3D dome models,VCX2,0
+3D dome models,VIPR2,0
+3D dome models,VLDLR,6.58882808685
+3D dome models,WAPL,-1.14442443848
+3D dome models,ZBTB47,-4.57769012451
+3D dome models,ZFP64,-5.05789470673
+3D dome models,ZNF132,0.131635665894
+3D dome models,ZNF222,3.56154727936
+3D dome models,ZNF26,-3.9739151001
+3D dome models,ZNF319,-0.60847568512
+3D dome models,ZNF335,-7.27353191376
+3D dome models,ZNF396,3.68646621704
+3D dome models,ZNF491,3.25059080124
+3D dome models,ZNF582,3.30499172211
+3D dome models,ZNF688,3.30902099609
+3D dome models,ZNF718,-1.25859451294
+3D dome models,ZRANB2,-3.74355125427
+2D adherent models,ABCG8,-0.269315242767
+2D adherent models,ACER2,-0.0799207687378
+2D adherent models,ADAMTS12,0.189393997192
+2D adherent models,ADCYAP1R1,0
+2D adherent models,ADGRG1,0.0624580383301
+2D adherent models,ADPRHL1,-0.157156944275
+2D adherent models,AGAP4,-0.0658187866211
+2D adherent models,AHRR,-0.07790184021
+2D adherent models,AKAP9,0.0926818847656
+2D adherent models,ALDH16A1,-0.0651473999023
+2D adherent models,AMHR2,0
+2D adherent models,AMY1C,0
+2D adherent models,ANLN,-0.157157897949
+2D adherent models,ARL4A,0.0517158508301
+2D adherent models,ASS1,0.0779075622559
+2D adherent models,ATP5PD,-0.0476875305176
+2D adherent models,ATRNL1,-0.116189956665
+2D adherent models,B3GNT7,0.265956878662
+2D adherent models,BBS10,-0.0470123291016
+2D adherent models,BICC1,0.132306098938
+2D adherent models,BLOC1S3,-0.0913391113281
+2D adherent models,BTBD16,0.00268650054932
+2D adherent models,BTC,-0.241781234741
+2D adherent models,C12orf56,0.332448005676
+2D adherent models,CACNG2,0
+2D adherent models,CCNB3,0.0382804870605
+2D adherent models,CCNG1,0.0711936950684
+2D adherent models,CCNQ,0.169244766235
+2D adherent models,CCR6,0
+2D adherent models,CD40,-0.531579971313
+2D adherent models,CD8B,0
+2D adherent models,CDCP2,0
+2D adherent models,CDNF,-0.0973825454712
+2D adherent models,CENPH,0.0762271881104
+2D adherent models,CEP44,-0.0201482772827
+2D adherent models,CEP68,0.0120887756348
+2D adherent models,CFAP69,-0.0241785049438
+2D adherent models,CIRBP,-0.0282115936279
+2D adherent models,CNGA2,0
+2D adherent models,CNTRL,0.137681007385
+2D adherent models,COL15A1,0
+2D adherent models,CSNK1A1,-0.0745449066162
+2D adherent models,CSRP2,0.131299972534
+2D adherent models,CTRB1,0.0591020584106
+2D adherent models,CXorf66,0
+2D adherent models,CYP11B1,0
+2D adherent models,CYP3A5,0.0376091003418
+2D adherent models,DEFB126,0
+2D adherent models,DENND10,-0.106111526489
+2D adherent models,DPH2,-0.106119155884
+2D adherent models,DUSP3,0.00335884094238
+2D adherent models,EDA2R,0.0107460021973
+2D adherent models,EDNRB,0.0725336074829
+2D adherent models,EEF1B2,0.444604873657
+2D adherent models,ENPP1,0.138688087463
+2D adherent models,FAHD1,0.191404342651
+2D adherent models,FAM161B,-0.177974700928
+2D adherent models,FBXO2,0.152459144592
+2D adherent models,FCRL5,0
+2D adherent models,FGF16,0
+2D adherent models,FOXJ3,-0.073205947876
+2D adherent models,FOXO1,-0.0698480606079
+2D adherent models,FSHR,0
+2D adherent models,FTMT,0
+2D adherent models,FXR2,-0.128942489624
+2D adherent models,FYB1,0.0456705093384
+2D adherent models,GANAB,-0.0852928161621
+2D adherent models,GAS1,0.218945980072
+2D adherent models,GBF1,0.0147743225098
+2D adherent models,GPNMB,-0.153128623962
+2D adherent models,GPR137,0.151781082153
+2D adherent models,GPR45,0.0577573776245
+2D adherent models,GRIA1,0
+2D adherent models,GRIN2D,-0.0174617767334
+2D adherent models,GUCD1,0.0362663269043
+2D adherent models,HES4,0.0523853302002
+2D adherent models,HMOX2,0.338493347168
+2D adherent models,HNRNPU,-0.0369396209717
+2D adherent models,IQSEC3,-0.00335836410522
+2D adherent models,IYD,0
+2D adherent models,IZUMO3,0
+2D adherent models,KHDC4,-0.025520324707
+2D adherent models,KLLN,-0.161187171936
+2D adherent models,KNOP1,0.0188026428223
+2D adherent models,KRTAP5-5,0
+2D adherent models,LAP3,0.114845275879
+2D adherent models,LARGE2,-0.120887756348
+2D adherent models,LRFN3,0.124247550964
+2D adherent models,LRRC28,-0.0732049942017
+2D adherent models,LUZP1,0.296180725098
+2D adherent models,LY86,0
+2D adherent models,LYVE1,0
+2D adherent models,MAPKBP1,-0.408340454102
+2D adherent models,MBNL1,0.0557403564453
+2D adherent models,MBTPS2,-0.00134372711182
+2D adherent models,MCF2L,0.0779075622559
+2D adherent models,MICALL2,0.415056228638
+2D adherent models,MIS18BP1,-0.075891494751
+2D adherent models,MKRN2OS,0.154470443726
+2D adherent models,MMP14,0.222972869873
+2D adherent models,MPST,-0.00403022766113
+2D adherent models,MRPL50,0.124919891357
+2D adherent models,MRPS26,-0.100740432739
+2D adherent models,NAGA,0.00940227508545
+2D adherent models,NCF4,0.294164180756
+2D adherent models,NEK4,0.0899953842163
+2D adherent models,NHSL1,0.213569641113
+2D adherent models,NKIRAS1,-0.0308933258057
+2D adherent models,NLGN2,0.250511169434
+2D adherent models,NOLC1,-0.111484527588
+2D adherent models,NR2C2AP,0.0221614837646
+2D adherent models,NT5DC4,-0.0376105308533
+2D adherent models,OARD1,-0.205514907837
+2D adherent models,OR51G2,0
+2D adherent models,OR52J3,0
+2D adherent models,OR5D14,0
+2D adherent models,OR5J2,0
+2D adherent models,OTOS,0
+2D adherent models,OVOL3,0.0899963378906
+2D adherent models,PCDH8,0
+2D adherent models,PELI2,-0.06715965271
+2D adherent models,PHF2,-0.250509262085
+2D adherent models,PIGZ,0.351250648499
+2D adherent models,PODXL,0.336475372314
+2D adherent models,PPP1R3B,-0.143724441528
+2D adherent models,PRAC2,0
+2D adherent models,PRKAB1,0.357967376709
+2D adherent models,PROM1,-0.0611162185669
+2D adherent models,PRSS12,0.0503702163696
+2D adherent models,PTPRB,-0.03626537323
+2D adherent models,PUM3,0.002685546875
+2D adherent models,RAB5A,-0.0114116668701
+2D adherent models,RANBP2,0.0137672424316
+2D adherent models,RARA,0.0181322097778
+2D adherent models,RASSF6,-0.0658178329468
+2D adherent models,REX1BD,-0.0355968475342
+2D adherent models,RNASEH2B,0.0812683105469
+2D adherent models,RPGRIP1L,-0.081934928894
+2D adherent models,RPL7,0.930850982666
+2D adherent models,S100G,0
+2D adherent models,SAGE1,0
+2D adherent models,SCAMP1,0.0678310394287
+2D adherent models,SCAPER,0.192081451416
+2D adherent models,SCTR,0
+2D adherent models,SDHA,0.0496978759766
+2D adherent models,SLC16A14,-0.107456207275
+2D adherent models,SLC1A2,0.183349609375
+2D adherent models,SLC1A5,-0.0107440948486
+2D adherent models,SLC35C1,0.0137691497803
+2D adherent models,SLC35D1,-0.197454452515
+2D adherent models,SLC7A9,0.0517144203186
+2D adherent models,SMIM40,0
+2D adherent models,SOBP,-0.0198140144348
+2D adherent models,SPATA9,0.0154466629028
+2D adherent models,SPRY3,0.208197593689
+2D adherent models,SRCAP,0.233719825745
+2D adherent models,SULT1E1,0.441247463226
+2D adherent models,SYNDIG1,0
+2D adherent models,TAFA3,0.0355949401855
+2D adherent models,TAS2R8,0
+2D adherent models,TBCEL,-0.124919891357
+2D adherent models,TCF24,-0.128949165344
+2D adherent models,TCL1A,0.0953693389893
+2D adherent models,TCP11X2,0
+2D adherent models,TGFBR2,0.00470161437988
+2D adherent models,TGM7,0
+2D adherent models,TIGD5,0.0167894363403
+2D adherent models,TMEM192,0.0161190032959
+2D adherent models,TMEM241,0.235734939575
+2D adherent models,TMEM266,-0.0873079299927
+2D adherent models,TNFAIP2,-0.144395828247
+2D adherent models,TNRC6A,-0.0235061645508
+2D adherent models,TP53TG3B,0
+2D adherent models,TRA2B,-0.0638027191162
+2D adherent models,TRIM49B,0
+2D adherent models,TULP1,0.0107455253601
+2D adherent models,UBA5,-0.00839424133301
+2D adherent models,UBE2D2,-0.0261917114258
+2D adherent models,UBE2M,0.0402946472168
+2D adherent models,UNC80,0
+2D adherent models,UQCC1,0.0732040405273
+2D adherent models,USP35,0.0429830551147
+2D adherent models,USP9Y,0
+2D adherent models,VCX2,0
+2D adherent models,VIPR2,0
+2D adherent models,VLDLR,0.110815048218
+2D adherent models,WAPL,-0.0449981689453
+2D adherent models,ZBTB47,0.0711917877197
+2D adherent models,ZFP64,-0.115514755249
+2D adherent models,ZNF132,0.158500671387
+2D adherent models,ZNF222,-0.0174627304077
+2D adherent models,ZNF26,-0.0772342681885
+2D adherent models,ZNF319,-0.0496997833252
+2D adherent models,ZNF335,-0.0913391113281
+2D adherent models,ZNF396,-0.148426055908
+2D adherent models,ZNF491,0.0114169120789
+2D adherent models,ZNF582,0.0859661102295
+2D adherent models,ZNF688,0.0725345611572
+2D adherent models,ZNF718,-0.0530576705933
+2D adherent models,ZRANB2,-0.0758895874023
