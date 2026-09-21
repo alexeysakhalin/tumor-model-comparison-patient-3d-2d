@@ -1,6 +1,6 @@
 {
   "archive": "Figure6_Source_Data_v1.1.0.zip",
-  "archive_sha256": "5de71606706874148cd0d512615e3f69e1c8ee05e4b1055c6f46a08566a58ee6",
+  "archive_sha256": "2dba177ff7235e74c01abe2a561c8178dc2df6669c24ac5964f87f5ec8deee89",
   "data_record_doi": "10.5281/zenodo.22863363",
   "files": {
     "tables/IKM_bootstrap_rejection.csv": "6a860b34a84744077894c89322576635e847c0a3b58648b8de9916197a975cdf",

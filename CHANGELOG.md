@@ -22,11 +22,15 @@ results unchanged for identical inputs), `code/test_numerics.py`, the eleven reg
 New: `code/audit_self_exclusion.py`, `code/report_self_exclusion.py`,
 `code/apply_self_exclusion_correction.py`, `audit/self_exclusion_2026-09-21/`.
 
+### Export consistency
+
+The composite PDF, PNG and three standalone panels are regenerated in the recorded rendering environment. The exact pixel comparison remains part of the verification workflow. PDF creation timestamps are omitted to make repeated exports deterministic. Ordered-control digests are labeled explicitly as 16-character SHA-256 prefixes.
+
+### Reference metadata
+
+The Yu et al. citation uses the 2009 issue year, retains the 2008 online publication date and correctly separates the surname Gonzalez from the initials LC. The Kundra et al. OncoTree citation includes volume 5 and pages 221-230. These fields were reconciled with PubMed. The initials CJ in the Li et al. citation are capitalized consistently.
+
 ## 1.0.0 — 19 September 2026
 
 First public release: the Figure 6 analysis, its derived tables, source-data exports, provenance
 records, reference metadata and verification workflow.
-
-### Export consistency
-
-The composite PDF, PNG and three standalone panels are regenerated in the recorded rendering environment. The exact pixel comparison remains part of the verification workflow. PDF creation timestamps are omitted to make repeated exports deterministic. Ordered-control digests are labeled explicitly as 16-character SHA-256 prefixes.

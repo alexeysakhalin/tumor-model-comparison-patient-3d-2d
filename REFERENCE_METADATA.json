@@ -1091,8 +1091,8 @@
         "given": "Kristin"
       },
       {
-        "family": "C Gonzalez",
-        "given": "Lino"
+        "family": "Gonzalez",
+        "given": "Lino C."
       },
       {
         "family": "Francesco",
@@ -1132,10 +1132,12 @@
       }
     ],
     "journal": "Nature Immunology",
-    "year": 2008,
+    "year": 2009,
     "volume": "10",
     "issue": "1",
-    "page": "48-57"
+    "page": "48-57",
+    "published_online": "2008-11-16",
+    "metadata_verification_source": "https://pubmed.ncbi.nlm.nih.gov/19011627/"
   },
   {
     "doi": "10.1038/s41418-017-0012-4",
@@ -2957,7 +2959,8 @@
     ],
     "journal": "JCO Clinical Cancer Informatics",
     "year": 2021,
-    "issue": "5",
-    "page": "221-230"
+    "page": "221-230",
+    "volume": "5",
+    "metadata_verification_source": "https://pubmed.ncbi.nlm.nih.gov/33625877/"
   }
 ]
