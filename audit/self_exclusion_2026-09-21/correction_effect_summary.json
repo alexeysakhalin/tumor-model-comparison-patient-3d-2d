@@ -1,0 +1,24 @@
+{
+ "band_rows": 48,
+ "all_bands_wider": true,
+ "width_change_range": [
+  0.0005373001098583075,
+  0.2638994753360926
+ ],
+ "max_abs_edge_change": 0.26455429196359503,
+ "median_abs_edge_change": 0.026733639836308942,
+ "contrasts": 24,
+ "contrasts_changed": 5,
+ "max_abs_band_unit_change": 0.040000000000000036,
+ "contrast_classification_changes": 0,
+ "classification_rows": 72,
+ "layer_classification_changes": 0,
+ "layer_score_changes": 0,
+ "sensitivity_rows": 12,
+ "sensitivity_classification_changes": 0,
+ "sensitivity_exact_classification_changes": 0,
+ "sensitivity_exact_rows": 8,
+ "monte_carlo_and_exact_disagreements": 1,
+ "manuscript_values": 22,
+ "manuscript_values_changed": 2
+}

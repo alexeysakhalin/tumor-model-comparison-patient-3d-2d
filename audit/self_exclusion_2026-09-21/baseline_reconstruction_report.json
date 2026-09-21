@@ -1,0 +1,28 @@
+{
+ "universe": 18612,
+ "profiles": {
+  "healthy": 20,
+  "malignant": 231,
+  "dome": 152,
+  "2D": 401
+ },
+ "unique_cluster_ids": {
+  "healthy": 11,
+  "malignant": 202,
+  "dome": 152,
+  "2D": 401
+ },
+ "rows_compared": 160800,
+ "max_abs_difference_to_released": 1.4210854715202004e-14,
+ "cluster_ids_match": true,
+ "tolerance": 1e-09,
+ "baseline_reproduced": true,
+ "self_inclusion_baseline": 1199,
+ "self_inclusion_corrected": 0,
+ "selections": 1200,
+ "control_count_always_400": true,
+ "analysed_genes_checked": 67,
+ "analysed_gene_selections": 402,
+ "analysed_control_sets_identical": true,
+ "analysed_self_inclusion_baseline": 0
+}

@@ -1,0 +1,25 @@
+group	column	block	score_released	reference_band_units_released	outside_band_released	CI_excludes_zero_released	organs_with_same_sign_released	all_sources_agree_released	score_corrected	reference_band_units_corrected	outside_band_corrected	CI_excludes_zero_corrected	organs_with_same_sign_corrected	all_sources_agree_corrected	band_units_change	classification_changed
+Apoptosis executioners	patient − healthy	representation	0.9	0.07	False	False	4/6	False	0.9	0.07	False	False	4/6	False	0.0	False
+Apoptosis executioners	organoid − 2D	representation	4.9	0.86	False	True	6/6	True	4.9	0.86	False	True	6/6	True	0.0	False
+Apoptosis initiators	patient − healthy	representation	3.3	0.41	False	False	4/6	False	3.3	0.4	False	False	4/6	False	-0.009999999999999953	False
+Apoptosis initiators	organoid − 2D	representation	2.0	0.65	False	True	6/6	True	2.0	0.64	False	True	6/6	True	-0.010000000000000009	False
+BRAKES	patient − healthy	representation	-9.0	-1.28	True	True	6/6	True	-9.0	-1.28	True	True	6/6	True	0.0	False
+BRAKES	organoid − 2D	representation	1.6	0.67	False	True	6/6	True	1.6	0.67	False	True	6/6	True	0.0	False
+ENTRY adaptors	patient − healthy	representation	8.6	0.91	True	True	5/6	False	8.6	0.9	True	True	5/6	False	-0.010000000000000009	False
+ENTRY adaptors	organoid − 2D	representation	0.5	0.14	False	False	4/6	False	0.5	0.14	False	False	4/6	False	0.0	False
+ENTRY receptors	patient − healthy	representation	-8.2	-0.78	False	True	5/6	False	-8.2	-0.78	False	True	5/6	False	0.0	False
+ENTRY receptors	organoid − 2D	representation	0.5	0.11	False	False	3/6	False	0.5	0.11	False	False	3/6	False	0.0	False
+Inhibitory signals	patient − healthy	representation	0.4	0.04	False	False	3/6	False	0.4	0.04	False	False	3/6	False	0.0	False
+Inhibitory signals	organoid − 2D	representation	1.9	0.61	False	True	5/6	False	1.9	0.6	False	True	5/6	False	-0.010000000000000009	False
+MHC-I presentation	patient − healthy	representation	2.6	0.5	False	True	4/6	False	2.6	0.5	False	True	4/6	False	0.0	False
+MHC-I presentation	organoid − 2D	representation	1.7	1.26	True	False	5/6	False	1.7	1.22	True	False	5/6	False	-0.040000000000000036	False
+NK activating ligands	patient − healthy	representation	5.2	0.73	False	True	5/6	False	5.2	0.73	False	True	5/6	False	0.0	False
+NK activating ligands	organoid − 2D	representation	-1.5	-0.64	False	False	6/6	True	-1.5	-0.64	False	False	6/6	True	0.0	False
+Necroptosis executioners	patient − healthy	representation	8.6	0.58	False	True	6/6	True	8.6	0.58	False	True	6/6	True	0.0	False
+Necroptosis executioners	organoid − 2D	representation	-5.0	-0.62	False	True	5/6	False	-5.0	-0.62	False	True	5/6	False	0.0	False
+Necroptosis initiators	patient − healthy	representation	4.5	0.34	False	False	4/6	False	4.5	0.34	False	False	4/6	False	0.0	False
+Necroptosis initiators	organoid − 2D	representation	3.5	0.62	False	True	4/6	False	3.5	0.62	False	True	4/6	False	0.0	False
+Pyroptosis executioners	patient − healthy	representation	1.3	0.1	False	False	5/6	False	1.3	0.1	False	False	5/6	False	0.0	False
+Pyroptosis executioners	organoid − 2D	representation	1.4	0.24	False	False	4/6	False	1.4	0.24	False	False	4/6	False	0.0	False
+Pyroptosis initiators	patient − healthy	representation	4.9	0.58	False	False	4/6	False	4.9	0.58	False	False	4/6	False	0.0	False
+Pyroptosis initiators	organoid − 2D	representation	0.9	0.37	False	False	4/6	False	0.9	0.37	False	False	4/6	False	0.0	False
