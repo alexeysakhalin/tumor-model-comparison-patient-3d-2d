@@ -27,7 +27,15 @@ NAMES = dict(
 )
 
 
-def compute(tables):
+def reference_bands(tables):
+    """One-gene reference bands from the deposited background scores.
+
+    Returned as {layer: ((mc_low, mc_high), (exact_low, exact_high))} together with the per-gene
+    reference values. Monte Carlo: 2,000 indices drawn with replacement, NumPy default_rng(3),
+    sorted gene symbols; exact: each of the 200 genes once. Factored out of `compute` so that a
+    correction which changes the background scores regenerates the deposited bands with this same
+    implementation instead of a second copy of it.
+    """
     tables = Path(tables)
     background = read_table(tables / "IKM_random_gene_scores_by_sample.csv.gz")
     per_site = background.groupby(["layer", "gene", "organ"])["score"].median()
@@ -51,6 +59,19 @@ def compute(tables):
                 for g, v in zip(genes, values)
             )
         )
+    return bands, distributions, genes
+
+
+def observed_scores(tables):
+    """Full-precision statistics of the analysed genes: the singles and the plotted pair.
+
+    Single genes: the median across the six sites of the site-specific gene scores, which for one
+    gene is the same number under either aggregation order. The pair: the sample-first estimator of
+    the figure, taken from the group scores, never the mean of the two final single-gene values,
+    because medians are not associative. Factored out so that a correction regenerating the
+    deposited table uses these numbers rather than the one-decimal display values.
+    """
+    tables = Path(tables)
     target = read_table(tables / "IKM_final_per_gene_by_organ.csv")
     observed = (
         target[target["gene"].isin(["MLKL", "PGAM5"])].groupby("gene")[LAYERS].median()
@@ -63,6 +84,13 @@ def compute(tables):
         .groupby("layer")
         .median()
     )
+    return observed, pair
+
+
+def compute(tables):
+    tables = Path(tables)
+    bands, distributions, genes = reference_bands(tables)
+    observed, pair = observed_scores(tables)
     original = read_table(tables / "IKM_pgam5_sensitivity.csv")
     two_gene = read_table(tables / "IKM_null_bands.csv")
     rows = []

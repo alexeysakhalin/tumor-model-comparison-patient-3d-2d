@@ -1,0 +1,23 @@
+group	column	released	corrected	changed
+BRAKES	healthy	18.6	18.6	False
+BRAKES	malignant	9.1	9.1	False
+BRAKES	dome	1.4	1.4	False
+BRAKES	2D	-0.1	-0.1	False
+BRAKES	malignant_minus_healthy	-9.0	-9.0	False
+BRAKES	malignant_minus_healthy_lo	-11.3	-11.3	False
+BRAKES	malignant_minus_healthy_hi	-5.5	-5.5	False
+BRAKES	malignant_minus_healthy_band_lo	-8.3	-8.3	False
+BRAKES	malignant_minus_healthy_band_hi	5.8	5.8	False
+ENTRY adaptors	malignant_minus_healthy	8.6	8.6	False
+ENTRY adaptors	malignant_minus_healthy_lo	4.3	4.3	False
+ENTRY adaptors	malignant_minus_healthy_hi	12.5	12.5	False
+ENTRY adaptors	malignant_minus_healthy_band_lo	-11.0	-11.0	False
+ENTRY adaptors	malignant_minus_healthy_band_hi	8.0	8.2	True
+MHC-I presentation	dome_minus_2D	1.7	1.7	False
+MHC-I presentation	dome_minus_2D_lo	-0.5	-0.5	False
+MHC-I presentation	dome_minus_2D_hi	4.2	4.2	False
+MHC-I presentation	dome_minus_2D_band_lo	-1.1	-1.2	True
+MHC-I presentation	dome_minus_2D_band_hi	1.6	1.6	False
+Apoptosis executioners	dome_minus_2D	4.9	4.9	False
+Apoptosis executioners	dome_minus_2D_band_lo	-5.4	-5.4	False
+Apoptosis executioners	dome_minus_2D_band_hi	5.9	5.9	False

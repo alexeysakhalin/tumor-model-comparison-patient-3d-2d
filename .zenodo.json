@@ -1,7 +1,7 @@
 {
   "title": "Cell-death regulation across patient tumors, 3D tumoroids and 2D cell lines: Figure 6 analysis",
   "upload_type": "software",
-  "description": "Analysis and plotting software for Figure 6, with derived numerical inputs, source provenance and reproducibility checks. The default workflow recalculates expression summaries from profile-level scores and checks functional summaries. Full primary matrices and a complete raw-guide processing pipeline are not included. Data are CC BY 4.0; software is MIT. See README.md and SOURCE_DATASETS.tsv.",
+  "description": "Analysis and plotting software for Figure 6, with derived numerical inputs, source provenance and reproducibility checks. The default workflow recalculates expression summaries from profile-level scores and checks functional summaries. Full primary matrices and a complete raw-guide processing pipeline are not included. Data are CC BY 4.0; software is MIT. See README.md and SOURCE_DATASETS.tsv. Release 1.1.0 corrects the control-set selection of the background genes: every scored gene is excluded from its own control pool, and the reference bands and the tables normalised by them are recomputed. No classification in Figure 6 changes; the measured effect and the reproduction of the previous baseline are in audit/self_exclusion_2026-09-21.",
   "creators": [
     {
       "name": "Petukhov, Alexey",
@@ -11,7 +11,7 @@
   ],
   "access_right": "open",
   "license": "mit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "language": "eng",
   "keywords": [
     "regulated cell death",

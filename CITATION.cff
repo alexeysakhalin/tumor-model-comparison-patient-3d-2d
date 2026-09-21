@@ -7,7 +7,8 @@ authors:
     given-names: Alexey
     orcid: "https://orcid.org/0000-0002-7298-5238"
     affiliation: "Nazarbayev University"
-version: "1.0.0"
+version: "1.1.0"
+date-released: "2026-09-21"
 license: MIT
 repository-code: "https://github.com/alexeysakhalin/tumor-model-comparison-patient-3d-2d"
 url: "https://github.com/alexeysakhalin/tumor-model-comparison-patient-3d-2d"

@@ -1,0 +1,73 @@
+group	column	score_released	score_corrected	outside_released	outside_corrected	classification_changed	score_changed
+Apoptosis executioners	healthy	1.9	1.9	False	False	False	False
+Apoptosis initiators	healthy	-5.1	-5.1	False	False	False	False
+BRAKES	healthy	18.6	18.6	True	True	False	False
+ENTRY adaptors	healthy	-0.9	-0.9	False	False	False	False
+ENTRY receptors	healthy	5.4	5.4	False	False	False	False
+Inhibitory signals	healthy	8.0	8.0	False	False	False	False
+MHC-I presentation	healthy	5.9	5.9	False	False	False	False
+NK activating ligands	healthy	-16.9	-16.9	True	True	False	False
+Necroptosis executioners	healthy	-15.7	-15.7	True	True	False	False
+Necroptosis initiators	healthy	6.5	6.5	False	False	False	False
+Pyroptosis executioners	healthy	-1.1	-1.1	False	False	False	False
+Pyroptosis initiators	healthy	2.2	2.2	False	False	False	False
+Apoptosis executioners	malignant	2.1	2.1	False	False	False	False
+Apoptosis initiators	malignant	-2.9	-2.9	False	False	False	False
+BRAKES	malignant	9.1	9.1	True	True	False	False
+ENTRY adaptors	malignant	4.5	4.5	False	False	False	False
+ENTRY receptors	malignant	-3.8	-3.8	False	False	False	False
+Inhibitory signals	malignant	6.9	6.9	False	False	False	False
+MHC-I presentation	malignant	7.6	7.6	True	True	False	False
+NK activating ligands	malignant	-10.8	-10.8	True	True	False	False
+Necroptosis executioners	malignant	-10.7	-10.7	True	True	False	False
+Necroptosis initiators	malignant	7.9	7.9	False	False	False	False
+Pyroptosis executioners	malignant	3.8	3.8	False	False	False	False
+Pyroptosis initiators	malignant	5.6	5.6	False	False	False	False
+Apoptosis executioners	dome	5.3	5.3	False	False	False	False
+Apoptosis initiators	dome	2.2	2.2	False	False	False	False
+BRAKES	dome	1.4	1.4	False	False	False	False
+ENTRY adaptors	dome	0.5	0.5	False	False	False	False
+ENTRY receptors	dome	0.5	0.5	False	False	False	False
+Inhibitory signals	dome	1.9	1.9	False	False	False	False
+MHC-I presentation	dome	2.0	2.0	True	True	False	False
+NK activating ligands	dome	-1.6	-1.6	False	False	False	False
+Necroptosis executioners	dome	-5.3	-5.3	False	False	False	False
+Necroptosis initiators	dome	2.9	2.9	False	False	False	False
+Pyroptosis executioners	dome	1.3	1.3	False	False	False	False
+Pyroptosis initiators	dome	1.0	1.0	False	False	False	False
+Apoptosis executioners	2D	0.0	0.0	False	False	False	False
+Apoptosis initiators	2D	0.0	0.0	False	False	False	False
+BRAKES	2D	-0.1	-0.1	False	False	False	False
+ENTRY adaptors	2D	0.2	0.2	False	False	False	False
+ENTRY receptors	2D	-0.2	-0.2	False	False	False	False
+Inhibitory signals	2D	0.2	0.2	False	False	False	False
+MHC-I presentation	2D	0.3	0.3	True	True	False	False
+NK activating ligands	2D	0.0	0.0	False	False	False	False
+Necroptosis executioners	2D	0.0	0.0	False	False	False	False
+Necroptosis initiators	2D	0.1	0.1	False	False	False	False
+Pyroptosis executioners	2D	0.2	0.2	False	False	False	False
+Pyroptosis initiators	2D	0.0	0.0	False	False	False	False
+Apoptosis executioners	malignant_minus_healthy	0.9	0.9	False	False	False	False
+Apoptosis initiators	malignant_minus_healthy	3.3	3.3	False	False	False	False
+BRAKES	malignant_minus_healthy	-9.0	-9.0	True	True	False	False
+ENTRY adaptors	malignant_minus_healthy	8.6	8.6	True	True	False	False
+ENTRY receptors	malignant_minus_healthy	-8.2	-8.2	False	False	False	False
+Inhibitory signals	malignant_minus_healthy	0.4	0.4	False	False	False	False
+MHC-I presentation	malignant_minus_healthy	2.6	2.6	False	False	False	False
+NK activating ligands	malignant_minus_healthy	5.2	5.2	False	False	False	False
+Necroptosis executioners	malignant_minus_healthy	8.6	8.6	False	False	False	False
+Necroptosis initiators	malignant_minus_healthy	4.5	4.5	False	False	False	False
+Pyroptosis executioners	malignant_minus_healthy	1.3	1.3	False	False	False	False
+Pyroptosis initiators	malignant_minus_healthy	4.9	4.9	False	False	False	False
+Apoptosis executioners	dome_minus_2D	4.9	4.9	False	False	False	False
+Apoptosis initiators	dome_minus_2D	2.0	2.0	False	False	False	False
+BRAKES	dome_minus_2D	1.6	1.6	False	False	False	False
+ENTRY adaptors	dome_minus_2D	0.5	0.5	False	False	False	False
+ENTRY receptors	dome_minus_2D	0.5	0.5	False	False	False	False
+Inhibitory signals	dome_minus_2D	1.9	1.9	False	False	False	False
+MHC-I presentation	dome_minus_2D	1.7	1.7	True	True	False	False
+NK activating ligands	dome_minus_2D	-1.5	-1.5	False	False	False	False
+Necroptosis executioners	dome_minus_2D	-5.0	-5.0	False	False	False	False
+Necroptosis initiators	dome_minus_2D	3.5	3.5	False	False	False	False
+Pyroptosis executioners	dome_minus_2D	1.4	1.4	False	False	False	False
+Pyroptosis initiators	dome_minus_2D	0.9	0.9	False	False	False	False

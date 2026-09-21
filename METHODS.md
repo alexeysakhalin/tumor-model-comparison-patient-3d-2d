@@ -16,7 +16,7 @@ MLKL/PGAM5 is a descriptive pair. PGAM5 is not an obligatory terminal necroptoti
 
 ## Expression scores and aggregation
 
-Within-profile percentile ranks are calculated over the common universe of 18,612 gene symbols. Tied expression values receive their average rank. For each target gene and anatomical site, 400 control genes are selected by proximity of their median rank in the 2D reference models. The analyzed genes and broader candidate panel are excluded from the control pool. A gene score is its rank in a profile minus the median rank of its matched controls in that profile. In the supplied primary-processing implementation, the control pool excludes the analyzed genes and the broader candidate panel. A randomly selected background gene is not additionally excluded from its own control pool. The deposited reference-gene scores preserve this rule. The size of any change after excluding such self-matches cannot be assessed without the primary rank matrices and control assignments.
+Within-profile percentile ranks are calculated over the common universe of 18,612 gene symbols. Tied expression values receive their average rank. For each target gene and anatomical site, 400 control genes are selected by proximity of their median rank in the 2D reference models. The analyzed genes and broader candidate panel are excluded from the control pool. A gene score is its rank in a profile minus the median rank of its matched controls in that profile. Every scored gene is excluded from its own control pool, in addition to the analyzed genes and the broader candidate panel. Releases before 21 September 2026 applied that exclusion to the analyzed genes only, so a background gene sat at distance zero from itself and was taken as its own control in 1,199 of the 1,200 gene-by-organ selections, the exception being SMIM40 in stomach, where 400 other genes at the same rank precede it by symbol; the reference bands built from those scores, and the normalizations and outside-band indicators derived from the bands, were affected. The correction, its measured effect and the reconstruction of the released baseline are described below and deposited in audit/self_exclusion_2026-09-21.
 
 The plotted group estimator first takes the median across genes within a profile, then the median across profiles within an anatomical site, and finally the median across the six sites. For a contrast, the difference between the two site-specific group scores is calculated before taking the median across sites. The 2D reference is approximately centered on zero by construction; individual genes need not have a score of exactly zero.
 
@@ -50,17 +50,54 @@ Panel b compares the 34 published protective candidates from the HT-29 kinome si
 
 The final column of panel a reports direct overlap with the published Mel624 TCR-selection candidate list of Patel et al. The supplied list contains 554 identifiers, including 502 non-miRNA identifiers used in this comparison. The displayed value is the number of group genes in that list divided by the group size. A suitable eligible-screen background was not reconstructed, so no new enrichment ratio, hypergeometric test or false-discovery rate is reported. Absence from the published list is not evidence of no functional effect. TCR-mediated recognition is distinct from direct CD19 CAR recognition.
 
+## Correction of background self-matching
+
+The control pool of a scored gene now excludes that gene. The 200 background genes were previously
+able to select themselves, and their scores define the reference bands, so the bands and everything
+normalized by them were recomputed. Analyzed estimates and intervals are unaffected: the control set of each analyzed gene is identical
+before and after, checked for all 67 genes in all six anatomical sites and deposited as
+`audit/self_exclusion_2026-09-21/analysed_gene_control_sets.tsv`.
+
+The released baseline was reproduced before the difference was read. All 160,800
+deposited background values were matched one-to-one on layer, organ, gene and profile index, with a
+maximum absolute difference of 1.42e-14 percentile points against a
+stated tolerance of 1e-9; biological cluster identifiers were checked separately because they are not
+unique within a layer (11 donors hold
+20 healthy profiles and 202 patients hold
+231 malignant profiles).
+
+Self-inclusion had occurred in 1,199 of the 1,200
+gene-by-organ selections; the exception is SMIM40 in stomach, where 400 other genes at
+distance zero precede it by symbol. After the correction no selection contains its own gene and every
+set holds 400 distinct controls.
+
+59.7 per cent of the background scores are unchanged;
+the 99th percentile of the absolute change is 0.196 and the largest
+single change is 11.99 percentile points, for
+ZNF222 in one large_intestine
+profile of the malignant layer. All 48 reference bands widen, by
+0.000537 to 0.263899 percentile points before
+rounding, which is the expected direction: a control at distance zero carries the target's own rank.
+
+5 of the 24 normalized contrasts change, each by at most
+0.04 reference-band units. No expression contrast, group-by-layer
+classification or MLKL/PGAM5 classification changes. Two band limits quoted as manuscript values move
+by 0.2 and 0.1 percentile points and are listed in
+audit/self_exclusion_2026-09-21/manuscript_value_changes.tsv. In healthy epithelium PGAM5 remains
+inside the reconstructed Monte Carlo band and outside the exact 200-gene band, as before the
+correction; that method dependence is stated in PGAM5_SENSITIVITY_METHODS.md.
+
 ## Sources and reproducibility boundaries
 
 SOURCE_DATASETS.tsv specifies the eight primary resources, publication DOIs and relevant data components. REFERENCE_METADATA.json contains bibliographic metadata. The recorded input filenames, sizes and hashes remain in the provenance tables. The traditional DepMap release identifier is absent from the input records and cannot be inferred from a general CCLE citation. The exact source files for the NextGen expression and model annotation are associated with the DepMap file set named NextGen Model Manuscript 2026 by the publication.
 
-All six plotted source tables match their corresponding analysis tables. The original 72 expression estimates and conditional intervals, 48 expression reference bands, 12 functional magnitude summaries and 12 candidate-list overlap counts are unchanged. The deposited PDF and PNG renderings correspond to these six numerical source tables. The code directory contains the plotting script, expression-summary reconstruction and verification workflow. Primary-processing utility inputs and limits are described in docs/PRIMARY_INPUTS.md. SOFTWARE_VERSIONS.json records the reconstruction environment. Complete primary-expression reconstruction and original ontology-query reconstruction are not established by these checks.
+All six plotted source tables match their corresponding analysis tables; two of the six were regenerated by the self-exclusion correction. The 72 expression estimates and their conditional intervals, the 12 functional magnitude summaries and the 12 candidate-list overlap counts are unchanged. All 48 expression reference bands were recomputed: five of the 24 normalized contrasts changed by up to 0.04 reference-band units, and no classification changed. The deposited PDF and PNG renderings correspond to these six numerical source tables. The code directory contains the plotting script, expression-summary reconstruction and verification workflow. Primary-processing utility inputs and limits are described in docs/PRIMARY_INPUTS.md. SOFTWARE_VERSIONS.json records the reconstruction environment. Complete primary-expression reconstruction and original ontology-query reconstruction are not established by these checks.
 
 The additional DepMap provenance tables retain reported local timestamps, file sizes, checksums and comparisons of Model.csv copies. Local modification dates do not establish when the portal changed or which quarterly release supplied a file. The comparison of four source downloads was reported by the supplying analyst; the original copies are not included. Truncated SHA-256 values are explicitly labeled as prefixes. No exact traditional DepMap release is inferred.
 
 ## MLKL and PGAM5 sensitivity
 
-The eight single-gene expression estimates and one-gene Monte Carlo bands can be reconstructed from the deposited gene-level and random-gene tables. The pair estimates in the auxiliary sensitivity table were corrected from the gene-first estimator to the sample-first estimator used in Figure 6. The reproducible implementation and a comparison with exact enumeration of all 200 background genes are in PGAM5_SENSITIVITY_METHODS.md. Removing PGAM5 places MLKL inside the one-gene band in all four layers under both methods. PGAM5 is outside the band in malignant epithelium under both methods; its healthy-layer classification changes between Monte Carlo sampling and exact enumeration. This distinction is preserved in the full-precision sensitivity table. The main Figure 6 values and bands are unchanged.
+The eight single-gene expression estimates and one-gene Monte Carlo bands can be reconstructed from the deposited gene-level and random-gene tables. The pair estimates in the auxiliary sensitivity table were corrected from the gene-first estimator to the sample-first estimator used in Figure 6. The reproducible implementation and a comparison with exact enumeration of all 200 background genes are in PGAM5_SENSITIVITY_METHODS.md. Removing PGAM5 places MLKL inside the one-gene band in all four layers under both methods. PGAM5 is outside the band in malignant epithelium under both methods; its healthy-layer classification changes between Monte Carlo sampling and exact enumeration. This distinction is preserved in the full-precision sensitivity table. The analyzed Figure 6 estimates, their conditional intervals and every classification are unchanged; the reference-band limits and the normalized contrasts were corrected, as set out in the correction section above.
 
 The auxiliary HT-29 comparison reconciles with the supplied per-gene screen values within their rounding precision. Exclusion of PGAM5 changes the group statistic by approximately 0.03 to 0.45 log2 units across the 12 configuration-condition combinations. Neither these changes nor the expression-band comparison demonstrate a death modality. Individual-gene cluster-bootstrap intervals are not estimated because the required profile-level target-gene scores are not deposited.
 

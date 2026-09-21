@@ -45,7 +45,7 @@ def verify(build_dir=None):
         and all(
             sha(ROOT / name) == checksum for name, checksum in snapshot["files"].items()
         ),
-        "All 51 tables match the source-data archive",
+        "All 51 tables match the recorded source-data snapshot",
     )
     mapping = pd.read_csv(ROOT / "FIGURE6_PANEL_MAP.tsv", sep="\t")
     require(

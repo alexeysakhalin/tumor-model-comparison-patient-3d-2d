@@ -48,7 +48,7 @@ BLOCKS = [
         "#7b3f9d",
     ),
     (
-        "Immune recognition",
+        "Recognition",
         ["MHC-I presentation", "NK activating ligands", "Inhibitory signals"],
         "#0f6f78",
     ),
@@ -163,15 +163,19 @@ def panel_levels_weight(axT, axB, C, W):
         "Expression-rank difference vs matched\ncontrols, percentile points",
         fontsize=8.0,
         color=INK,
+        fontweight="bold",
         labelpad=2,
         linespacing=1.25,
+        y=0.55,
     )
     axB.set_ylabel(
-        "Median absolute gene-set\nstatistic, reference-band units",
+        "Median absolute statistic,\nreference-band units",
         fontsize=7.6,
         color=INK,
-        labelpad=3,
+        fontweight="bold",
+        labelpad=8,
         linespacing=1.3,
+        y=0.3,
     )
     axB.set_ylim(-3.25, max((float(W.loc[g, "magnitude"]) for g in ORD)) * 1.22)
     for g in ORD:
@@ -291,7 +295,7 @@ def panel_matrix_all(ax, R, M, P=None):
         "HT-29",
         "HT-29 JAK1-KO",
         "CRC-9 tumoroid",
-        "CRC-9 tumoroid\n+ autologous T cells",
+        "CRC-9 tumoroid",
         "HeLa",
     ]
     fmt = ["2D", "2D", "2D", "2D", "3D", "3D", "2D"]
@@ -314,7 +318,7 @@ def panel_matrix_all(ax, R, M, P=None):
     mc = M.pivot_table(
         index="group", columns="model", values="all_replicates_agree", aggfunc="first"
     )
-    ax.set_ylim(min(ypos.values()) - 4.95, 2.1)
+    ax.set_ylim(min(ypos.values()) - 7.45, 2.1)
     xp = xs[-1] + 1.9
     ax.set_xlim(-4.6, xp + 0.9)
     ax.set_yticks([])
@@ -424,7 +428,7 @@ def panel_matrix_all(ax, R, M, P=None):
         ax.text(
             xp,
             0.6,
-            "Mel624 + TCR T cells",
+            "Mel624",
             fontsize=8.0,
             rotation=90,
             ha="center",
@@ -449,22 +453,23 @@ def panel_matrix_all(ax, R, M, P=None):
     for j, (x, arm) in enumerate(zip(xs[len(repr_cols) :], arms)):
         ax.text(
             x,
-            ybot - 0.8,
+            ybot - 2.5,
             fmt[j],
             fontsize=6.0,
             ha="center",
             va="center",
-            color=LAY["organoid"] if fmt[j] == "3D" else SOFT,
-            fontweight="bold" if fmt[j] == "3D" else "normal",
+            color=LAY["organoid"] if fmt[j] == "3D" else INK,
+            fontweight="bold",
         )
         ax.text(
             x,
-            ybot - 1.62,
+            ybot - 3.32,
             str(int(foot.loc[arm, "screen_count"])),
             fontsize=6.0,
             ha="center",
             va="center",
-            color=SOFT,
+            color=INK,
+            fontweight="bold",
         )
         rho_v = foot.loc[arm, "replicate_rho"]
         rho_s = (
@@ -473,23 +478,67 @@ def panel_matrix_all(ax, R, M, P=None):
             else format(round(float(rho_v), 2) + 0.0, "+.2f").replace("-0.00", "0.00")
         )
         ax.text(
-            x, ybot - 2.44, rho_s, fontsize=6.0, ha="center", va="center", color=SOFT
+            x,
+            ybot - 4.14,
+            rho_s,
+            fontsize=6.0,
+            ha="center",
+            va="center",
+            color=INK,
+            fontweight="bold",
         )
     ax.text(
         (xs[0] + xs[len(repr_cols) - 1]) / 2,
-        ybot - 0.8,
+        ybot - 2.5,
         "6 organs",
         fontsize=6.0,
         ha="center",
         va="center",
-        color=SOFT,
+        color=INK,
+        fontweight="bold",
     )
+    # An arm is one model under one immune pressure, and the pressure is what the column names do
+    # not say; it is read from the arm key of the table rather than typed, so the row cannot drift
+    # from the data. Long stimulus names are wrapped to keep the column pitch.
     ax.text(
-        -0.75, ybot - 0.8, "format", fontsize=6.0, ha="right", va="center", color=SOFT
+        -0.75, ybot - 1.25, "immune pressure", fontsize=6.0, ha="right", va="center", color=SOFT
+    )
+    # The arm key abbreviates the pressure; the row spells it the way the sources describe it, and
+    # every key must have an entry, so a new arm cannot appear on the figure without its pressure.
+    pressure_label = {
+        "IFN-\u03b3": "IFN-\u03b3",
+        "T cells": "T cells",
+        "TNF-\u03b1 + IFN-\u03b3": "TNF-\u03b1\n+ IFN-\u03b3",
+    }
+    missing = [a for a in arms if "(" in a and a[a.index("(") + 1:-1] not in pressure_label]
+    if missing:
+        raise SystemExit(f"arms without a pressure label: {missing}")
+    pressures = [
+        (xs[len(repr_cols) + j], pressure_label[arm[arm.index("(") + 1:-1]] if "(" in arm else "\u2014")
+        for j, arm in enumerate(arms)
+    ]
+    if P is not None:
+        # The published-list column is not an arm, but its selection pressure belongs in the same
+        # row: the reader compares like with like only if every column says what was applied.
+        pressures.append((xp, "TCR T cells"))
+    for x_p, stimulus in pressures:
+        ax.text(
+            x_p,
+            ybot - 1.25,
+            stimulus,
+            fontsize=5.8,
+            ha="center",
+            va="center",
+            color=INK,
+            fontweight="bold",
+            linespacing=1.05,
+        )
+    ax.text(
+        -0.75, ybot - 2.5, "culture format", fontsize=6.0, ha="right", va="center", color=SOFT
     )
     ax.text(
         -0.75,
-        ybot - 1.62,
+        ybot - 3.32,
         "screens pooled",
         fontsize=6.0,
         ha="right",
@@ -498,7 +547,7 @@ def panel_matrix_all(ax, R, M, P=None):
     )
     ax.text(
         -0.75,
-        ybot - 2.44,
+        ybot - 4.14,
         "replicate ρ",
         fontsize=6.0,
         ha="right",
@@ -506,20 +555,20 @@ def panel_matrix_all(ax, R, M, P=None):
         color=SOFT,
     )
     xm = (xs[len(repr_cols) - 1] + xs[len(repr_cols)]) / 2
-    ax.plot([xm, xm], [ybot - 3.1, 1.9], color="#bbbbbb", lw=0.8)
+    ax.plot([xm, xm], [ybot - 4.8, 1.9], color="#bbbbbb", lw=0.8)
     if P is not None:
         ax.plot(
             [(xs[-1] + xp) / 2, (xs[-1] + xp) / 2],
-            [ybot - 3.1, 1.9],
+            [ybot - 4.8, 1.9],
             color="#bbbbbb",
             lw=0.8,
         )
         ax.plot(
-            [xp - 0.42, xp + 0.42], [ybot - 3.1, ybot - 3.1], color="#999999", lw=0.8
+            [xp - 0.42, xp + 0.42], [ybot - 4.8, ybot - 4.8], color="#999999", lw=0.8
         )
         ax.text(
             xp,
-            ybot - 3.26,
+            ybot - 4.96,
             "published hit list, overlap",
             fontsize=6.0,
             ha="center",
@@ -529,16 +578,17 @@ def panel_matrix_all(ax, R, M, P=None):
         )
         ax.text(
             xp,
-            ybot - 3.95,
+            ybot - 5.65,
             "hit list of",
-            fontsize=6.2,
+            fontsize=6.6,
             ha="center",
             va="top",
             color=INK,
+            fontweight="bold",
         )
         ax.text(
             xp,
-            ybot - 4.75,
+            ybot - 6.45,
             "Patel et al. 2017",
             fontsize=6.6,
             ha="center",
@@ -548,14 +598,18 @@ def panel_matrix_all(ax, R, M, P=None):
         )
     for x0, x1, txt in [
         (xs[0], xs[len(repr_cols) - 1], "expression rank, tissue-matched"),
-        (xs[len(repr_cols)], xs[-1], "CRISPR knockout, 7 arms"),
+        (
+            xs[len(repr_cols)],
+            xs[-1],
+            "CRISPR knockout",
+        ),
     ]:
         ax.plot(
-            [x0 - 0.42, x1 + 0.42], [ybot - 3.1, ybot - 3.1], color="#999999", lw=0.8
+            [x0 - 0.42, x1 + 0.42], [ybot - 4.8, ybot - 4.8], color="#999999", lw=0.8
         )
         ax.text(
             (x0 + x1) / 2,
-            ybot - 3.26,
+            ybot - 4.96,
             txt,
             fontsize=6.2,
             ha="center",
@@ -565,7 +619,7 @@ def panel_matrix_all(ax, R, M, P=None):
         )
     ax.text(
         (xs[0] + xs[len(repr_cols) - 1]) / 2,
-        ybot - 3.95,
+        ybot - 5.65,
         "Tabula Sapiens 2.0, Kang et al.\npan-cancer atlas, DepMap",
         fontsize=6.6,
         ha="center",
@@ -576,7 +630,7 @@ def panel_matrix_all(ax, R, M, P=None):
     )
     ax.text(
         (xs[len(repr_cols)] + xs[-1]) / 2,
-        ybot - 3.95,
+        ybot - 5.65,
         "reanalysis of Watterson et al. 2026\nand Zhou et al. 2026",
         fontsize=6.6,
         ha="center",
@@ -696,16 +750,20 @@ def panel_hits(ax, CP):
             ha="right" if k == 0 else "left",
         )
     ax.set_xlabel(
-        "siRNA viability-rescue Z score\n" + "$\\bf{Woznicki\\ et\\ al.\\ 2021}$",
+        "siRNA viability rescue, Z score\nHT-29 under TNF-\u03b1 + IFN-\u03b3\n"
+        + "$\\bf{Woznicki\\ et\\ al.\\ 2021}$",
         fontsize=8.0,
         color=INK,
+        fontweight="bold",
         labelpad=3,
         linespacing=1.5,
     )
     ax.set_ylabel(
-        "CRISPR resistance percentile\n" + "$\\bf{Watterson\\ et\\ al.\\ 2026}$",
-        fontsize=7.8,
+        "CRISPR resistance percentile\nHT-29 under IFN-\u03b3\n"
+        + "$\\bf{Watterson\\ et\\ al.\\ 2026}$",
+        fontsize=7.6,
         color=INK,
+        fontweight="bold",
         labelpad=3,
         linespacing=1.5,
     )
@@ -758,7 +816,7 @@ def build(tables_dir="tables", out_prefix="build/Figure6"):
         height_ratios=[H_A, H_B],
         hspace=0.4,
         wspace=2.6,
-        left=0.075,
+        left=0.105,
         right=0.975,
         top=1 - TOP / H,
         bottom=BOT / H,
@@ -789,7 +847,7 @@ def build(tables_dir="tables", out_prefix="build/Figure6"):
             color=INK,
         )
     fig.savefig(f"{out_prefix}.png", dpi=400, bbox_inches="tight")
-    fig.savefig(f"{out_prefix}.pdf", bbox_inches="tight")
+    fig.savefig(f"{out_prefix}.pdf", bbox_inches="tight", metadata={"CreationDate": None})
     return fig
 
 

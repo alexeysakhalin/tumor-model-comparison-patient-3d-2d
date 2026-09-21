@@ -1,0 +1,13 @@
+composition	gene_count	layer	score_pp_released	band_lower_released	band_upper_released	outside_band_released	reference_band_units_released	score_pp_corrected	band_lower_corrected	band_upper_corrected	outside_band_corrected	reference_band_units_corrected	classification_changed	composition_recomputed	layer_recomputed	exact_200_gene_band_lower_pp_released	exact_200_gene_band_upper_pp_released	outside_exact_200_gene_band_released	exact_200_gene_band_lower_pp_corrected	exact_200_gene_band_upper_pp_corrected	outside_exact_200_gene_band_corrected	exact_classification_changed	monte_carlo_and_exact_disagree
+MLKL + PGAM5 (figure)	2	healthy	-15.7	-14.9	23.9	True	-0.81	-15.7	-15.0	24.0	True	-0.8	False	MLKL + PGAM5	Healthy epithelium							False	False
+MLKL + PGAM5 (figure)	2	malignant	-10.7	-9.9	15.4	True	-0.85	-10.7	-10.0	15.5	True	-0.84	False	MLKL + PGAM5	Malignant epithelium							False	False
+MLKL + PGAM5 (figure)	2	dome	-5.3	-7.6	8.8	False	-0.65	-5.3	-7.7	8.8	False	-0.65	False	MLKL + PGAM5	3D dome models							False	False
+MLKL + PGAM5 (figure)	2	2D	0.0	-0.9	1.8	False	0.01	0.0	-0.9	1.8	False	0.01	False	MLKL + PGAM5	2D adherent models							False	False
+MLKL only	1	healthy	-10.8	-25.6	37.9	False	-0.34	-10.8	-25.7	38.0	False	-0.34	False	MLKL	Healthy epithelium	-22.1421509266	37.8158165693	False	-22.1781975746	37.8598648787	False	False	False
+MLKL only	1	malignant	-5.1	-13.5	21.5	False	-0.29	-5.1	-13.5	21.5	False	-0.29	False	MLKL	Malignant epithelium	-13.5052641511	21.7421391189	False	-13.5480634093	21.7439692914	False	False	False
+MLKL only	1	dome	-6.0	-12.2	11.7	False	-0.5	-6.0	-12.2	11.7	False	-0.5	False	MLKL	3D dome models	-12.615163976	12.7506937504	False	-12.6331294835	12.7929725647	False	False	False
+MLKL only	1	2D	0.0	-0.2	0.4	False	0.01	0.0	-0.2	0.4	False	0.01	False	MLKL	2D adherent models	-0.20642156601	0.351418566704	False	-0.213538217545	0.361680650711	False	False	False
+PGAM5 only	1	healthy	-24.7	-25.6	37.9	False	-0.78	-24.7	-25.7	38.0	False	-0.78	False	PGAM5	Healthy epithelium	-22.1421509266	37.8158165693	True	-22.1781975746	37.8598648787	True	False	True
+PGAM5 only	1	malignant	-15.7	-13.5	21.5	True	-0.9	-15.7	-13.5	21.5	True	-0.9	False	PGAM5	Malignant epithelium	-13.5052641511	21.7421391189	True	-13.5480634093	21.7439692914	True	False	False
+PGAM5 only	1	dome	-2.7	-12.2	11.7	False	-0.23	-2.7	-12.2	11.7	False	-0.23	False	PGAM5	3D dome models	-12.615163976	12.7506937504	False	-12.6331294835	12.7929725647	False	False	False
+PGAM5 only	1	2D	-0.2	-0.2	0.4	False	-0.57	-0.2	-0.2	0.4	False	-0.57	False	PGAM5	2D adherent models	-0.20642156601	0.351418566704	False	-0.213538217545	0.361680650711	False	False	False

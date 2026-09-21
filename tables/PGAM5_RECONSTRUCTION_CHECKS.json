@@ -115,7 +115,7 @@
     },
     {
       "arm": "JAK1_KO_C1",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "baseline",
       "recomputed_from_rounded_genes": -0.072,
       "supplied": -0.072,
@@ -124,7 +124,7 @@
     },
     {
       "arm": "JAK1_KO_C1",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IFNg",
       "recomputed_from_rounded_genes": -0.154,
       "supplied": -0.154,
@@ -133,7 +133,7 @@
     },
     {
       "arm": "JAK1_KO_C1",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IL6",
       "recomputed_from_rounded_genes": -0.322,
       "supplied": -0.322,
@@ -169,7 +169,7 @@
     },
     {
       "arm": "JAK1_KO_C3",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "baseline",
       "recomputed_from_rounded_genes": -0.004,
       "supplied": -0.004,
@@ -178,7 +178,7 @@
     },
     {
       "arm": "JAK1_KO_C3",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IFNg",
       "recomputed_from_rounded_genes": 0.025,
       "supplied": 0.025,
@@ -187,7 +187,7 @@
     },
     {
       "arm": "JAK1_KO_C3",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IL6",
       "recomputed_from_rounded_genes": -0.267,
       "supplied": -0.267,
@@ -223,7 +223,7 @@
     },
     {
       "arm": "WT D14",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "baseline",
       "recomputed_from_rounded_genes": -0.229,
       "supplied": -0.229,
@@ -232,7 +232,7 @@
     },
     {
       "arm": "WT D14",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IFNg",
       "recomputed_from_rounded_genes": 0.143,
       "supplied": 0.143,
@@ -241,7 +241,7 @@
     },
     {
       "arm": "WT D14",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IL6",
       "recomputed_from_rounded_genes": -0.011,
       "supplied": -0.011,
@@ -277,7 +277,7 @@
     },
     {
       "arm": "WT Scr",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "baseline",
       "recomputed_from_rounded_genes": 0.267,
       "supplied": 0.267,
@@ -286,7 +286,7 @@
     },
     {
       "arm": "WT Scr",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IFNg",
       "recomputed_from_rounded_genes": -0.918,
       "supplied": -0.918,
@@ -295,7 +295,7 @@
     },
     {
       "arm": "WT Scr",
-      "composition": "\u0442\u043e\u043b\u044c\u043a\u043e MLKL",
+      "composition": "MLKL only",
       "condition": "IL6",
       "recomputed_from_rounded_genes": -0.234,
       "supplied": -0.234,
