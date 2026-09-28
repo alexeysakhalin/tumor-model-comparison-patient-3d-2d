@@ -2962,5 +2962,75 @@
     "page": "221-230",
     "volume": "5",
     "metadata_verification_source": "https://pubmed.ncbi.nlm.nih.gov/33625877/"
+  },
+  {
+    "doi": "10.1038/s41467-025-58068-y",
+    "title": "Author Correction: Systematic dissection of tumor-normal single-cell ecosystems across a thousand tumors of 30 cancer types",
+    "authors": [
+      {
+        "family": "Kang",
+        "given": "Junho"
+      },
+      {
+        "family": "Lee",
+        "given": "Jun Hyeong"
+      },
+      {
+        "family": "Cha",
+        "given": "Hongui"
+      },
+      {
+        "family": "An",
+        "given": "Jinhyeon"
+      },
+      {
+        "family": "Kwon",
+        "given": "Joonha"
+      },
+      {
+        "family": "Lee",
+        "given": "Seongwoo"
+      },
+      {
+        "family": "Kim",
+        "given": "Seongryong"
+      },
+      {
+        "family": "Baykan",
+        "given": "Mert Yakup"
+      },
+      {
+        "family": "Kim",
+        "given": "So Yeon"
+      },
+      {
+        "family": "An",
+        "given": "Dohyeon"
+      },
+      {
+        "family": "Kwon",
+        "given": "Ah-Young"
+      },
+      {
+        "family": "An",
+        "given": "Hee Jung"
+      },
+      {
+        "family": "Lee",
+        "given": "Se-Hoon"
+      },
+      {
+        "family": "Choi",
+        "given": "Jung Kyoon"
+      },
+      {
+        "family": "Park",
+        "given": "Jong-Eun"
+      }
+    ],
+    "journal": "Nature Communications",
+    "year": 2025,
+    "volume": "16",
+    "page": "2806"
   }
 ]

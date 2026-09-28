@@ -1,5 +1,9 @@
 # Change record
 
+## 1.1.1 — 29 September 2026
+
+Clarifies the secondary-analysis design, attribution of original datasets and the inputs used by the companion workflow. Updates citation metadata, references and source-data archive checksums. The Kang et al. clinical-outcome correction is cited; those outcomes are not used in Figure 6. All 51 numerical and provenance tables and all five figure files are byte-identical to version 1.1.0.
+
 ## 1.1.0 — 21 September 2026
 
 **Every scored gene is excluded from its own control pool.** Background genes could previously select

@@ -1,6 +1,6 @@
 # References
 
-Bibliographic details were checked against publisher-deposited Crossref records on 21 September 2026. The Yu and Kundra records were reconciled with PubMed to correct author-name parsing and issue-level citation details. Dataset components and their roles are listed in `SOURCE_DATASETS.tsv`.
+Bibliographic details were checked against Crossref, publisher and PubMed records on 29 September 2026. The Yu and Kundra records were reconciled with PubMed to correct author-name parsing and issue-level citation details. Dataset components and their roles are listed in `SOURCE_DATASETS.tsv`.
 
 - Braud VM, Allan DSJ, O'Callaghan CA, et al. (1998). HLA-E binds to natural killer cell receptors CD94/NKG2A, B and C. *Nature*. 391:795-799. [doi:10.1038/35869](https://doi.org/10.1038/35869).
 
@@ -40,3 +40,7 @@ Bibliographic details were checked against publisher-deposited Crossref records 
 For Tabula Sapiens 2.0, PubMed identifies the consortium as the corporate author. The JSON preserves the individual contributor order deposited in Crossref.
 
 For Yu et al., the issue year is 2009 and the third author is Lino C. Gonzalez ([PubMed](https://pubmed.ncbi.nlm.nih.gov/19011627/)). For Kundra et al., the completed citation is volume 5, pages 221-230 ([PubMed](https://pubmed.ncbi.nlm.nih.gov/33625877/)).
+
+- Kang J, Lee JH, Cha H, et al. (2025). Author Correction: Systematic dissection of tumor-normal single-cell ecosystems across a thousand tumors of 30 cancer types. *Nature Communications*. 16:2806. [doi:10.1038/s41467-025-58068-y](https://doi.org/10.1038/s41467-025-58068-y).
+
+The Kang et al. correction concerns clinical survival times and response categories. Those variables are not used in the Figure 6 expression comparison.
