@@ -1,5 +1,5 @@
 {
-  "scope": "Reconstruction from deposited profile scores and derived screen summaries, with exact comparison to the accepted Figure 6. Primary-processing utilities are included but have not been run on all original source matrices.",
+  "scope": "Reconstruction from deposited profile scores and derived screen summaries, with exact comparison to the accepted Figure 6. Primary-processing utilities and input requirements are documented in docs/PRIMARY_INPUTS.md.",
   "figure_png_sha256": "058e38765105b5feff048498f21d9f554db73052997be713fee545a8b0e5716f",
   "figure_pdf_sha256": "f12e2a73661a96fc6758b706906140e919d790f6abea17a01545189452f45627",
   "plotting_script_sha256": "b65dda0ed689ef94a9da1ab40688ff59b5f695f97d9b9b1abab45e745284f2fa",

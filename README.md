@@ -82,7 +82,7 @@ Expression scores are relative rank differences against matched control genes, n
 
 Bootstrap intervals and random-gene reference bands answer different questions. Reference-band classifications are descriptive and do not represent multiple-testing-adjusted significance. The MLKL/PGAM5 pair is not treated as a canonical terminal-necroptosis module. MHC-I presentation relates to TCR recognition and is not required for direct CD19 CAR recognition.
 
-The full primary expression matrices and raw guide counts are not included. Primary-processing utilities have been checked with numerical fixtures, but a complete reconstruction from all original source files has not been established. The exact traditional DepMap quarterly release remains unresolved. See `docs/PRIMARY_INPUTS.md` for these limits and the inputs needed to extend the reconstruction.
+The default workflow starts from deposited profile-level scores and derived screen summaries. Primary-processing utilities are checked with numerical fixtures and use separately obtained source files. The exact traditional DepMap quarterly release remains unresolved. See `docs/PRIMARY_INPUTS.md` for input requirements and processing scope.
 
 ## Citation and licenses
 
