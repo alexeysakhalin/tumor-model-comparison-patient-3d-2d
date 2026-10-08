@@ -3032,5 +3032,41 @@
     "year": 2025,
     "volume": "16",
     "page": "2806"
+  },
+  {
+    "doi": "10.1126/science.288.5473.2051",
+    "title": "Role of CD47 as a Marker of Self on Red Blood Cells",
+    "authors": [
+      {
+        "family": "Oldenborg",
+        "given": "Per-Arne"
+      },
+      {
+        "family": "Zheleznyak",
+        "given": "Alex"
+      },
+      {
+        "family": "Fang",
+        "given": "Yi-Fu"
+      },
+      {
+        "family": "Lagenaur",
+        "given": "Carl F."
+      },
+      {
+        "family": "Gresham",
+        "given": "Hattie D."
+      },
+      {
+        "family": "Lindberg",
+        "given": "Frederik P."
+      }
+    ],
+    "journal": "Science",
+    "year": 2000,
+    "volume": "288",
+    "issue": "5473",
+    "page": "2051-2054",
+    "metadata_verification_source": "https://pubmed.ncbi.nlm.nih.gov/10856220/"
   }
 ]
